@@ -1,0 +1,34 @@
+{
+  "_om": "Ret i tallene her og gem filen — så søger agenten efter noget andet. Datoer skrives ÅÅÅÅ-MM-DD.",
+
+  "personer": 2,
+  "valuta": "DKK",
+  "min_stjerner": 4,
+  "samlet_budget": 50000,
+  "parallelle_soegninger": 3,
+  "hent_koebslinks": 6,
+
+  "udrejse": {
+    "_om": "Ud fra København til Tokyo, højst ét stop, premium economy.",
+    "fra": "CPH",
+    "til": ["TYO"],
+    "tidligste_dato": "2026-11-01",
+    "seneste_dato": "2026-11-05",
+    "kabine": ["premium"],
+    "max_stop": 1,
+    "max_pris_pr_person": 12000,
+    "max_rejsetid_timer": null
+  },
+
+  "hjemrejse": {
+    "_om": "Hjem fra Tokyo ELLER Osaka. Business foretrækkes, premium economy som reserve.",
+    "fra": ["TYO", "OSA"],
+    "til": "CPH",
+    "tidligste_dato": "2026-11-15",
+    "seneste_dato": "2026-11-18",
+    "kabine": ["business", "premium"],
+    "max_stop": 1,
+    "max_pris_pr_person": 15000,
+    "max_rejsetid_timer": 20
+  }
+}
