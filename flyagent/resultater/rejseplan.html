@@ -1,0 +1,544 @@
+<!doctype html><html lang="da"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rejseplan CPH &#8594; TYO</title>
+<style>
+ :root { color-scheme:light dark; --bg:#fbfbfa; --fg:#1a1a19; --dim:#75736e; --line:#e5e3de;
+   --card:#fff; --accent:#2f5bd8; --ok:#0d8a4a; --over:#c0392b; --star:#e0a30b; }
+ @media (prefers-color-scheme:dark) { :root { --bg:#141412; --fg:#ecebe6; --dim:#97948c;
+   --line:#2c2b27; --card:#1c1c19; --accent:#8ea8ff; --ok:#4ec27f; --over:#f0705f; --star:#f0bc3c; } }
+ * { box-sizing:border-box; }
+ body { margin:0; padding:36px 20px 72px; background:var(--bg); color:var(--fg);
+   font:15px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif; }
+ .wrap { max-width:1120px; margin:0 auto; }
+ h1 { font-size:27px; margin:0 0 4px; letter-spacing:-.02em; }
+ h2 { font-size:19px; margin:38px 0 12px; letter-spacing:-.01em; }
+ h3 { font-size:14px; margin:20px 0 8px; }
+ .undertekst { color:var(--dim); font-size:13px; margin-bottom:26px; }
+ .dim { color:var(--dim); font-weight:400; }
+ .star { color:var(--star); letter-spacing:1px; font-size:12px; }
+ .hero { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:22px; }
+ .hero.mangler h2 { margin-top:0; }
+ .label { font-size:11px; text-transform:uppercase; letter-spacing:.09em; color:var(--dim); }
+ .hero h2 { margin:2px 0 4px; font-size:30px; }
+ .hero .ok { color:var(--ok); margin:0; font-size:14px; }
+ .hero .over { color:var(--over); margin:0; font-size:14px; }
+ .ben { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px; margin-top:20px; }
+ .kort { border:1px solid var(--line); border-radius:11px; padding:15px; }
+ .rute { font-size:20px; font-weight:600; letter-spacing:-.01em; margin:2px 0 6px; }
+ .detalje { font-size:13px; color:var(--fg); }
+ .kort-pris { font-size:17px; font-weight:650; margin:10px 0 12px; }
+ .btn { display:inline-block; margin:0 6px 6px 0; padding:6px 11px; border-radius:8px;
+   border:1px solid var(--line); color:var(--accent); text-decoration:none; font-size:12.5px; }
+ .btn:hover { border-color:var(--accent); }
+ .btn.primary { background:var(--accent); color:#fff; border-color:var(--accent); font-weight:600; }
+ .scroll { overflow-x:auto; border:1px solid var(--line); border-radius:12px; background:var(--card); }
+ table { border-collapse:collapse; width:100%; font-size:13.5px; }
+ th { text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:.07em;
+   color:var(--dim); padding:12px 14px; border-bottom:1px solid var(--line); white-space:nowrap; }
+ td { padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; }
+ tr:last-child td { border-bottom:0; }
+ .pris { font-weight:650; font-variant-numeric:tabular-nums; white-space:nowrap; }
+ .knapper { min-width:250px; }
+ .saelgere { font-size:11.5px; color:var(--dim); margin-top:4px; }
+ .mangler-celle { max-width:230px; }
+ .mangel { display:inline-block; background:var(--bg); border:1px solid var(--line);
+   border-radius:6px; padding:2px 7px; margin:0 4px 4px 0; font-size:12px; color:var(--over); }
+ .tom { color:var(--dim); background:var(--card); border:1px dashed var(--line);
+   border-radius:12px; padding:18px; }
+ .liste { margin:0; padding-left:18px; color:var(--fg); font-size:13.5px; }
+ .liste li { margin:3px 0; }
+ code { background:var(--card); border:1px solid var(--line); border-radius:5px; padding:1px 5px; font-size:12.5px; }
+ .banner { background:var(--card); border:1px solid var(--line); border-radius:10px;
+   padding:10px 14px; font-size:12.5px; color:var(--dim); margin-bottom:20px; }
+ footer { color:var(--dim); font-size:12.5px; margin-top:34px; border-top:1px solid var(--line); padding-top:14px; }
+</style></head><body><div class="wrap">
+<div class="banner">Rejseplan efter dine kriterier i <code>kriterier.json</code>
+  &mdash; lavet med <code>SOEG-FLY.bat</code>.</div>
+
+<h1>CPH &#8594; TYO &#8594; CPH</h1>
+<div class="undertekst">
+  Ud søn. 1. nov&#8211;tor. 5. nov &middot;
+  hjem søn. 15. nov&#8211;ons. 18. nov fra
+  TYO/OSA &middot; mindst 4 stjerner &middot;
+  2 personer &middot; hentet 01-09-2026 21:29
+</div>
+
+<div class="hero">
+  <div class="hero-top">
+    <div><span class="label">Bedste samlede rejse</span>
+      <h2>21.473 DKK <span class="dim">pr. person</span></h2>
+      <p class="ok">42.946 DKK for 2 personer
+      &middot; inden for budgettet på 50.000 DKK</p>
+    </div>
+  </div>
+  <div class="ben">
+    <div class="kort">
+  <span class="label">Udrejse</span>
+  <div class="rute">CPH &#8594; TYO</div>
+  <div class="detalje">tor. 5. nov &middot; British AirwaysJAL
+    <span class="star">&#9733;&#9733;&#9733;&#9733;</span></div>
+  <div class="detalje">Economy + Premium Economy &middot; 1 stop via 1 hr 25 min LHR &middot; 17t 05m</div>
+  <div class="detalje dim">1 free carry-on, 2 free checked bags</div>
+  <div class="kort-pris">10.533 DKK</div>
+  <div class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA1Ih8KA0NQSBIKMjAyNi0xMS0wNRoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNRoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnBDalJJYm1KemNqZHhkemRHZEdOQlFYbGtiVkZDUnkwdExTMHRMUzB0WldabFpURXdNVUZCUVVGQlIzRllTak5aU0hwNVJsbEJFZ2xDUVRneE9YeENRVGNhQ2dpbFVoQUFHZ05FUzBzNEhYQ00vQWs9EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos British Airways</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261105/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos lastminute.com 10.634 &middot; martiGO 10.720 DKK</div></div>
+</div>
+    <div class="kort">
+  <span class="label">Hjemrejse</span>
+  <div class="rute">OSA &#8594; CPH</div>
+  <div class="detalje">søn. 15. nov &middot; KLM
+    <span class="star">&#9733;&#9733;&#9733;&#9733;</span></div>
+  <div class="detalje">Premium Economy + Economy &middot; 1 stop via 2 hr AMS &middot; 17t 40m</div>
+  <div class="detalje dim">1 free carry-on, 2 free checked bags</div>
+  <div class="kort-pris">10.940 DKK</div>
+  <div class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE1Ih8KA0tJWBIKMjAyNi0xMS0xNRoDQU1TKgJLTDIDODY4IiAKA0FNUxIKMjAyNi0xMS0xNRoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&amp;tfu=CnRDalJJVGpSVmRUUklhV1E0Ym1kQlFYUnlaSGRDUnkwdExTMHRaV1ppYlhReE1DMXVNVUZCUVVGQlIzRllTalJKU1d4eFdpMUJFZ3hMVERnMk9IeExUREV5TnprYUNnaThWUkFBR2dORVMwczRIWEMwclFvPRICCAAiAxIBMA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos KLM</a><a class="btn" href="https://www.klm.dk/" target="_blank" rel="noopener">KLM.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></div>
+</div>
+  </div>
+</div>
+
+<h2>Udrejse &ndash; Premium economy,
+  max 1 stop,
+  max 12.000 DKK</h2>
+<div class="scroll"><table>
+<thead><tr><th>Pris pr. person</th><th>Dato</th><th>Selskab</th><th>Klasse</th>
+<th>Stop</th><th>Rejsetid</th><th>Book</th></tr></thead>
+<tbody><tr>
+<td class="pris">10.533<span class="dim"> DKK</span></td>
+<td>tor. 5. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>British AirwaysJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>1 stop via 1 hr 25 min LHR</td>
+<td>17t 05m<span class="dim"> 6:30 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA1Ih8KA0NQSBIKMjAyNi0xMS0wNRoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNRoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnBDalJJYm1KemNqZHhkemRHZEdOQlFYbGtiVkZDUnkwdExTMHRMUzB0WldabFpURXdNVUZCUVVGQlIzRllTak5aU0hwNVJsbEJFZ2xDUVRneE9YeENRVGNhQ2dpbFVoQUFHZ05FUzBzNEhYQ00vQWs9EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos British Airways</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261105/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos lastminute.com 10.634 &middot; martiGO 10.720 DKK</div></td>
+</tr><tr>
+<td class="pris">10.533<span class="dim"> DKK</span></td>
+<td>tir. 3. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>British AirwaysJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>1 stop via 1 hr 35 min LHR</td>
+<td>17t 15m<span class="dim"> 6:20 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnBDalJJYm1KemNqZHhkemRHZEdOQlFYbGtiRUZDUnkwdExTMHRMUzB0WldabFpURXdNVUZCUVVGQlIzRllTak5aUjJ0eFlrdEJFZ2xDUVRneE9YeENRVGNhQ2dpbFVoQUFHZ05FUzBzNEhYQ00vQWs9EgIIACIDEgEw&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos British Airways</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261103/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos lastminute.com 10.634 &middot; martiGO 10.720 DKK</div></td>
+</tr><tr>
+<td class="pris">10.533<span class="dim"> DKK</span></td>
+<td>man. 2. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>British AirwaysJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>1 stop via 3 hr 40 min LHR</td>
+<td>19t 40m<span class="dim"> 6:45 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAyIh8KA0NQSBIKMjAyNi0xMS0wMhoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wMhoDSE5EKgJCQTIBNWoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnBDalJJUTNsNlJVeElVbTA0Vkc5QlIwbEZlR2RDUnkwdExTMHRMUzB0WldwamFHOHhNVUZCUVVGQlIzRllTak5aU0haWlYwbEJFZ2xDUVRneE9YeENRVFVhQ2dpbFVoQUFHZ05FUzBzNEhYQ00vQWs9EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos British Airways</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261102/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos lastminute.com 10.634 &middot; martiGO 10.720 DKK</div></td>
+</tr><tr>
+<td class="pris">10.533<span class="dim"> DKK</span></td>
+<td>ons. 4. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>British AirwaysJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>1 stop via 3 hr 40 min LHR</td>
+<td>19t 40m<span class="dim"> 6:45 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA0Ih8KA0NQSBIKMjAyNi0xMS0wNBoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNBoDSE5EKgJCQTIBNWoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnBDalJJUTFacVJsWlRWMWxVTURCQlFYaFlOV2RDUnkwdExTMHRaV1ppWlc4eE9DMXVNVUZCUVVGQlIzRllTak13UjJ4R1ZqQkJFZ2xDUVRneE9YeENRVFVhQ2dpbFVoQUFHZ05FUzBzNEhYQ00vQWs9EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos British Airways</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261104/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos lastminute.com 10.634 &middot; martiGO 10.720 DKK</div></td>
+</tr><tr>
+<td class="pris">10.645<span class="dim"> DKK</span></td>
+<td>man. 2. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>British AirwaysJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>1 stop via 11 hr 35 min LHR</td>
+<td>27t 05m<span class="dim"> 8:30 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAyIh8KA0NQSBIKMjAyNi0xMS0wMhoDTEhSKgJCQTIDODE3Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnBDalJJUVV0bVZtbHpia1ZHY2tWQlJqUlVjbWRDUnkwdExTMHRMUzB0TFMxbGFtZG9OMEZCUVVGQlIzRllTak13U0ZkcmJ6SkJFZ2xDUVRneE4zeENRVGNhQ2dpVlV4QUFHZ05FUzBzNEhYRFZpUW89EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos JAL</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261102/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos lastminute.com 10.634 DKK</div></td>
+</tr><tr>
+<td class="pris">10.645<span class="dim"> DKK</span></td>
+<td>søn. 1. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>British AirwaysJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>1 stop via 13 hr 40 min LHR</td>
+<td>29t 10m<span class="dim"> 6:25 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAxIh8KA0NQSBIKMjAyNi0xMS0wMRoDTEhSKgJCQTIDODE1Ih0KA0xIUhIKMjAyNi0xMS0wMhoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnBDalJJWDNCTk5FbzRZekl6VkZWQlIwMVNRM2RDUnkwdExTMHRMUzB0TFMxbGFtUmxNVUZCUVVGQlIzRllTalJGVEVKTloyVkJFZ2xDUVRneE5YeENRVGNhQ2dpVlV4QUFHZ05FUzBzNEhYRFZpUW89EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos lastminute.com</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261101/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-01/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.028<span class="dim"> DKK</span></td>
+<td>tir. 3. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>Scandinavian Airlines, ANA<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 1 hr 15 min ARN</td>
+<td>16t 20m<span class="dim"> 7:00 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDNqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.ana.co.jp/en/dk/" target="_blank" rel="noopener">ANA.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261103/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.032<span class="dim"> DKK</span></td>
+<td>ons. 4. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>SWISSANA<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 1 hr 20 min ZRH</td>
+<td>16t 30m<span class="dim"> 9:50 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.ana.co.jp/en/dk/" target="_blank" rel="noopener">ANA.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261104/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.032<span class="dim"> DKK</span></td>
+<td>tor. 5. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>SWISSANA<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 1 hr 25 min ZRH</td>
+<td>16t 35m<span class="dim"> 9:50 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDVqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.ana.co.jp/en/dk/" target="_blank" rel="noopener">ANA.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261105/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.032<span class="dim"> DKK</span></td>
+<td>tir. 3. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>SWISSANA<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 1 hr 30 min ZRH</td>
+<td>16t 40m<span class="dim"> 9:50 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDNqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.ana.co.jp/en/dk/" target="_blank" rel="noopener">ANA.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261103/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.063<span class="dim"> DKK</span></td>
+<td>tor. 5. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>Lufthansa<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 2 hr 20 min MUC</td>
+<td>16t 20m<span class="dim"> 8:55 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDVqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.lufthansa.com/dk/da/homepage" target="_blank" rel="noopener">Lufthansa.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261105/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.174<span class="dim"> DKK</span></td>
+<td>man. 2. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>SWISSANA<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 15 hr 30 min ZRH</td>
+<td>30t 35m<span class="dim"> 7:55 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDJqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.ana.co.jp/en/dk/" target="_blank" rel="noopener">ANA.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261102/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr></tbody></table></div>
+<h3>Tættest på</h3>
+<p class="dim">Opfylder alt undtagen det, der står i kolonnen &raquo;mangler&laquo;.
+Selskaber under stjernekravet er ikke med her.</p>
+<div class="scroll"><table>
+<thead><tr><th>Pris pr. person</th><th>Dato</th><th>Selskab</th><th>Klasse</th>
+<th>Stop</th><th>Rejsetid</th><th>Mangler</th><th>Book</th></tr></thead>
+<tbody><tr>
+<td class="pris">10.514<span class="dim"> DKK</span></td>
+<td>tir. 3. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>Scandinavian Airlines, Cathay Pacific<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>2 stop via ZRH, HKG</td>
+<td>21t 15m</td>
+<td class="mangler-celle"><span class="mangel">2 stop (max 1)</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wMyIfCgNDUEgSCjIwMjYtMTEtMDMaA1pSSCoCU0syAzYwMSIfCgNaUkgSCjIwMjYtMTEtMDMaA0hLRyoCQ1gyAzM4MiIfCgNIS0cSCjIwMjYtMTEtMDQaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnxDalJJVGpSVmRUUklhV1E0Ym1kQlFYUjVVMUZDUnkwdExTMHRaV1ppYlhReE1DMXVNVUZCUVVGQlIzRllTalZOU0V0SExVVkJFaEZUU3pZd01YeERXRE00TW54RFdEVXlOaG9LQ0pKU0VBQWFBMFJMU3pnZGNPWDVDUT09EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Cathay Pacific</a><a class="btn" href="https://www.cathaypacific.com/" target="_blank" rel="noopener">Cathay Pacific.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261103/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">10.514<span class="dim"> DKK</span></td>
+<td>ons. 4. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>Scandinavian Airlines, Cathay Pacific<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>2 stop via ZRH, HKG</td>
+<td>21t 15m</td>
+<td class="mangler-celle"><span class="mangel">2 stop (max 1)</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wNCIfCgNDUEgSCjIwMjYtMTEtMDQaA1pSSCoCU0syAzYwMSIfCgNaUkgSCjIwMjYtMTEtMDQaA0hLRyoCQ1gyAzM4MiIfCgNIS0cSCjIwMjYtMTEtMDUaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnxDalJJVG1KQ0xVa3hPRTAzVnpoQlFYWXlXbEZDUnkwdExTMHRMUzB0TFdWbVpHUTJNMEZCUVVGQlIzRllTalZqU0dvdGRUQkJFaEZUU3pZd01YeERXRE00TW54RFdEVXlOaG9LQ0pKU0VBQWFBMFJMU3pnZGNPWDVDUT09EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Cathay Pacific</a><a class="btn" href="https://www.cathaypacific.com/" target="_blank" rel="noopener">Cathay Pacific.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261104/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">10.678<span class="dim"> DKK</span></td>
+<td>man. 2. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>Scandinavian Airlines, Cathay Pacific<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Economy + Premium Economy</span></td>
+<td>2 stop via FRA, HKG</td>
+<td>20t 55m</td>
+<td class="mangler-celle"><span class="mangel">2 stop (max 1)</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wMiIfCgNDUEgSCjIwMjYtMTEtMDIaA0ZSQSoCU0syAzYzOSIfCgNGUkESCjIwMjYtMTEtMDIaA0hLRyoCQ1gyAzI4OCIfCgNIS0cSCjIwMjYtMTEtMDMaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&amp;tfu=CnxDalJJZHpGTk9WRjBkbHBKTW05QlFVUjRNMmRDUnkwdExTMHRMUzB0TFMxbFptdHZOMEZCUVVGQlIzRllTalYzUzI5UVIwZEJFaEZUU3pZek9YeERXREk0T0h4RFdEVXlOaG9LQ0xaVEVBQWFBMFJMU3pnZGNOV05DZz09EgIIACIA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Cathay Pacific</a><a class="btn" href="https://www.cathaypacific.com/" target="_blank" rel="noopener">Cathay Pacific.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261102/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">12.164<span class="dim"> DKK</span></td>
+<td>ons. 4. nov<span class="dim"> CPH&#8594;TYO</span></td>
+<td>KLM<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 2 hr 55 min AMS</td>
+<td>17t 50m</td>
+<td class="mangler-celle"><span class="mangel">164 DKK over prisloftet</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.klm.dk/" target="_blank" rel="noopener">KLM.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/cph/tyoa/261104/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr></tbody></table></div>
+
+<h2>Hjemrejse &ndash; Business, Premium economy,
+  max 1 stop, max 20 timer,
+  max 15.000 DKK</h2>
+<div class="scroll"><table>
+<thead><tr><th>Pris pr. person</th><th>Dato</th><th>Selskab</th><th>Klasse</th>
+<th>Stop</th><th>Rejsetid</th><th>Book</th></tr></thead>
+<tbody><tr>
+<td class="pris">10.940<span class="dim"> DKK</span></td>
+<td>søn. 15. nov<span class="dim"> OSA&#8594;CPH</span></td>
+<td>KLM<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Premium Economy + Economy</span></td>
+<td>1 stop via 2 hr AMS</td>
+<td>17t 40m<span class="dim"> 1:00 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE1Ih8KA0tJWBIKMjAyNi0xMS0xNRoDQU1TKgJLTDIDODY4IiAKA0FNUxIKMjAyNi0xMS0xNRoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&amp;tfu=CnRDalJJVGpSVmRUUklhV1E0Ym1kQlFYUnlaSGRDUnkwdExTMHRaV1ppYlhReE1DMXVNVUZCUVVGQlIzRllTalJKU1d4eFdpMUJFZ3hMVERnMk9IeExUREV5TnprYUNnaThWUkFBR2dORVMwczRIWEMwclFvPRICCAAiAxIBMA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos KLM</a><a class="btn" href="https://www.klm.dk/" target="_blank" rel="noopener">KLM.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.342<span class="dim"> DKK</span></td>
+<td>ons. 18. nov<span class="dim"> OSA&#8594;CPH</span></td>
+<td>FinnairJAL, British Airways<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Premium Economy + Economy</span></td>
+<td>1 stop via 2 hr HEL</td>
+<td>16t 45m<span class="dim"> 11:25 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE4Ih4KA0tJWBIKMjAyNi0xMS0xOBoDSEVMKgJBWTICNjgiHwoDSEVMEgoyMDI2LTExLTE5GgNDUEgqAkFZMgM5NTNqDAgCEggvbS8wZHF5d3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&amp;tfu=CnBDalJJVG1KQ0xVa3hPRTAzVnpoQlFYWjJWVkZDUnkwdExTMHRMUzB0TFdWbVpHUTJNMEZCUVVGQlIzRllTalJSUkhZelFUSkJFZ3BCV1RZNGZFRlpPVFV6R2dvSXpsZ1FBQm9EUkV0TE9CMXdqdDRLEgIIACIDCgEw&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Finnair</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos martiGO 11.605 DKK</div></td>
+</tr><tr>
+<td class="pris">11.455<span class="dim"> DKK</span></td>
+<td>tir. 17. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>JAL, FinnairIberia, British Airways<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Premium Economy + Economy</span></td>
+<td>1 stop via 1 hr 10 min HEL</td>
+<td>16t 10m<span class="dim"> 8:20 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE3Ih4KA0hORBIKMjAyNi0xMS0xNxoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE3GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&amp;tfu=CnBDalJJTVcwMldqRmxRMWxPZEZsQlFYVnRVSGRDUnkwdExTMHRMUzB0TFdWbWJHc3lNa0ZCUVVGQlIzRllTalJWVG5wSVlVMUJFZ3BLVERRM2ZFRlpPVFU1R2dvSXYxa1FBQm9EUkV0TE9CMXc1dXNLEgIIACIDCgEw&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Iberia</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261117/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos British Airways 16.326 &middot; JAL 16.712 &middot; Flybillet 11.685 &middot; martiGO 11.610 DKK</div></td>
+</tr><tr>
+<td class="pris">11.851<span class="dim"> DKK</span></td>
+<td>man. 16. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>ANA, Scandinavian Airlines<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Premium Economy + Economy</span></td>
+<td>1 stop via 2 hr 45 min BRU</td>
+<td>18t 35m<span class="dim"> 10:10 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE2Ih8KA05SVBIKMjAyNi0xMS0xNhoDQlJVKgJOSDIDMjMxIiAKA0JSVRIKMjAyNi0xMS0xNhoDQ1BIKgJTSzIEMTU5NmoMCAISCC9tLzA3ZGZrcgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&amp;tfu=CnRDalJJVjNnelJrTm5NR3htUkRoQlFYaDBXRkZDUnkwdExTMHRMUzFsWm5WcU9DMXVNa0ZCUVVGQlIzRllTalJaVFV4d1dtMUJFZ3hPU0RJek1YeFRTekUxT1RZYUNnakxYQkFBR2dORVMwczRIWERqbXdzPRICCAAiAA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Åbn bookingsiden</a><a class="btn" href="https://www.ana.co.jp/en/dk/" target="_blank" rel="noopener">ANA.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261116/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.915<span class="dim"> DKK</span></td>
+<td>tir. 17. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>ANA, Scandinavian Airlines<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Premium Economy + Economy</span></td>
+<td>1 stop via 1 hr 50 min ARN</td>
+<td>16t 55m<span class="dim"> 12:30 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE3Ih8KA0hORBIKMjAyNi0xMS0xNxoDQVJOKgJOSDIDMjIxIh8KA0FSThIKMjAyNi0xMS0xNxoDQ1BIKgJTSzIDNDAxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&amp;tfu=CnRDalJJV0VoRE55MDRSbnBMTTFWQlIwSnNhR2RDUnkwdExTMHRMUzB0TFdWcVltTm1OVUZCUVVGQlIzRllTalJuUkRaWlJ5MUJFZ3RPU0RJeU1YeFRTelF3TVJvS0NJdGRFQUFhQTBSTFN6Z2RjTU9qQ3c9PRICCAAiAA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Åbn bookingsiden</a><a class="btn" href="https://www.ana.co.jp/en/dk/" target="_blank" rel="noopener">ANA.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261117/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">11.964<span class="dim"> DKK</span></td>
+<td>man. 16. nov<span class="dim"> OSA&#8594;CPH</span></td>
+<td>Air France<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy<br><span class="dim">Premium Economy + Economy</span></td>
+<td>1 stop via 1 hr 50 min CDG</td>
+<td>18t 45m<span class="dim"> 12:15 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE2Ih8KA0tJWBIKMjAyNi0xMS0xNhoDQ0RHKgJBRjIDMjkxIiAKA0NERxIKMjAyNi0xMS0xNhoDQ1BIKgJBRjIEMTM1MGoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&amp;tfu=CnRDalJJTUdJNFIzUTRhR3ByYVhOQlIweExjbmRDUnkwdExTMHRMUzB0TFMxbGFtcHROVUZCUVVGQlIzRllTalE0UmpoUFMzVkJFZ3hCUmpJNU1YeEJSakV6TlRBYUNnaThYUkFBR2dORVMwczRIWEM3cVFzPRICCAAiAwoBMA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Air France</a><a class="btn" href="https://wwws.airfrance.dk/" target="_blank" rel="noopener">Air France.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">12.019<span class="dim"> DKK</span></td>
+<td>søn. 15. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>JAL, FinnairIberia<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 1 hr 10 min HEL</td>
+<td>16t 10m<span class="dim"> 8:20 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDVFlPcgUSA0NQSEABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261115/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-15/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">12.083<span class="dim"> DKK</span></td>
+<td>ons. 18. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>JAL, Finnair<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 1 hr 10 min HEL</td>
+<td>16t 10m<span class="dim"> 8:20 AM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDVFlPcgUSA0NQSEABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261118/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-18/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">12.450<span class="dim"> DKK</span></td>
+<td>søn. 15. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>FinnairJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 2 hr 30 min HEL</td>
+<td>17t 00m<span class="dim"> 11:10 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDVFlPcgUSA0NQSEABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261115/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-15/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">12.469<span class="dim"> DKK</span></td>
+<td>søn. 15. nov<span class="dim"> OSA&#8594;CPH</span></td>
+<td>FinnairJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 2 hr HEL</td>
+<td>16t 45m<span class="dim"> 11:25 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">12.469<span class="dim"> DKK</span></td>
+<td>man. 16. nov<span class="dim"> OSA&#8594;CPH</span></td>
+<td>FinnairJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 2 hr HEL</td>
+<td>16t 45m<span class="dim"> 11:25 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">12.643<span class="dim"> DKK</span></td>
+<td>man. 16. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>FinnairJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 3 hr 30 min HEL</td>
+<td>18t 15m<span class="dim"> 9:55 PM</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDVFlPcgUSA0NQSEABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261116/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr></tbody></table></div>
+<h3>Tættest på</h3>
+<p class="dim">Opfylder alt undtagen det, der står i kolonnen &raquo;mangler&laquo;.
+Selskaber under stjernekravet er ikke med her.</p>
+<div class="scroll"><table>
+<thead><tr><th>Pris pr. person</th><th>Dato</th><th>Selskab</th><th>Klasse</th>
+<th>Stop</th><th>Rejsetid</th><th>Mangler</th><th>Book</th></tr></thead>
+<tbody><tr>
+<td class="pris">9.934<span class="dim"> DKK</span></td>
+<td>tir. 17. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>EmiratesQantas<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 3 hr 50 min DXB</td>
+<td>23t 00m</td>
+<td class="mangler-celle"><span class="mangel">23t rejsetid (max 20t)</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE3Ih8KA05SVBIKMjAyNi0xMS0xNxoDRFhCKgJFSzIDMzIxIh8KA0RYQhIKMjAyNi0xMS0xOBoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&amp;tfu=CnRDalJJUTFacVJsWlRWMWxVTURCQlFYaHVXa0ZDUnkwdExTMHRaV1ppWlc4eE9DMXVNVUZCUVVGQlIzRllTalUwUW5RdFdrTkJFZ3RGU3pNeU1YeEZTekUxTVJvS0NNNU5FQUFhQTBSTFN6Z2RjTU96Q1E9PRICCAAiAA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Emirates</a><a class="btn" href="https://www.emirates.com/dk/danish/" target="_blank" rel="noopener">Emirates.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261117/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos martiGO 10.190 DKK</div></td>
+</tr><tr>
+<td class="pris">9.934<span class="dim"> DKK</span></td>
+<td>ons. 18. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>EmiratesQantas<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 3 hr DXB</td>
+<td>22t 10m</td>
+<td class="mangler-celle"><span class="mangel">22t rejsetid (max 20t)</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE4Ih8KA05SVBIKMjAyNi0xMS0xOBoDRFhCKgJFSzIDMzE5Ih8KA0RYQhIKMjAyNi0xMS0xORoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&amp;tfu=CnRDalJJYm1KemNqZHhkemRHZEdOQlFYbHpiVUZDUnkwdExTMHRMUzB0WldabFpURXdNVUZCUVVGQlIzRllTalUwUW5GMVgyMUJFZ3RGU3pNeE9YeEZTekUxTVJvS0NNNU5FQUFhQTBSTFN6Z2RjTU96Q1E9PRICCAAiAA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Emirates</a><a class="btn" href="https://www.emirates.com/dk/danish/" target="_blank" rel="noopener">Emirates.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261118/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-18/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos martiGO 10.190 DKK</div></td>
+</tr><tr>
+<td class="pris">9.935<span class="dim"> DKK</span></td>
+<td>søn. 15. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>EmiratesQantas<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 3 hr DXB</td>
+<td>22t 10m</td>
+<td class="mangler-celle"><span class="mangel">22t rejsetid (max 20t)</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE1Ih8KA05SVBIKMjAyNi0xMS0xNRoDRFhCKgJFSzIDMzE5Ih8KA0RYQhIKMjAyNi0xMS0xNhoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&amp;tfu=CnRDalJJT1dwSlVrSlhRMlk0Tlc5QlIwTTJUM2RDUnkwdExTMHRMUzB0TFdWcVptY3hNa0ZCUVVGQlIzRllTalpKUm1kc1FVdEJFZ3RGU3pNeE9YeEZTekUxTVJvS0NNOU5FQUFhQTBSTFN6Z2RjTk96Q1E9PRICCAAiAA&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Køb hos Emirates</a><a class="btn" href="https://www.emirates.com/dk/danish/" target="_blank" rel="noopener">Emirates.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261115/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-15/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a><div class="saelgere">Også hos martiGO 10.190 DKK</div></td>
+</tr><tr>
+<td class="pris">9.935<span class="dim"> DKK</span></td>
+<td>man. 16. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>EmiratesQantas<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Premium economy</td>
+<td>1 stop via 1 hr 35 min DXB</td>
+<td>20t 25m</td>
+<td class="mangler-celle"><span class="mangel">20t rejsetid (max 20t)</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDVFlPcgUSA0NQSEABSAKYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.emirates.com/dk/danish/" target="_blank" rel="noopener">Emirates.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261116/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=premiumeconomy" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">16.382<span class="dim"> DKK</span></td>
+<td>man. 16. nov<span class="dim"> OSA&#8594;CPH</span></td>
+<td>Turkish Airlines<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Business</td>
+<td>1 stop via 2 hr 30 min IST</td>
+<td>18t 55m</td>
+<td class="mangler-celle"><span class="mangel">1.382 DKK over prisloftet</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAOYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.turkishairlines.com/" target="_blank" rel="noopener">Turkish Airlines.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=business" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/business?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">20.697<span class="dim"> DKK</span></td>
+<td>ons. 18. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>JAL, Scandinavian Airlines<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Business</td>
+<td>1 stop via 3 hr 30 min FRA</td>
+<td>19t 20m</td>
+<td class="mangler-celle"><span class="mangel">5.697 DKK over prisloftet</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDVFlPcgUSA0NQSEABSAOYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261118/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=business" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-18/business?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">20.713<span class="dim"> DKK</span></td>
+<td>tir. 17. nov<span class="dim"> TYO&#8594;CPH</span></td>
+<td>FinnairJAL<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Business</td>
+<td>1 stop via 2 hr 30 min HEL</td>
+<td>17t 00m</td>
+<td class="mangler-celle"><span class="mangel">5.713 DKK over prisloftet</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDVFlPcgUSA0NQSEABSAOYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/tyoa/cph/261117/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=business" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/business?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr><tr>
+<td class="pris">20.733<span class="dim"> DKK</span></td>
+<td>man. 16. nov<span class="dim"> OSA&#8594;CPH</span></td>
+<td>FinnairJAL, British Airways<br><span class="star">&#9733;&#9733;&#9733;&#9733;</span></td>
+<td>Business</td>
+<td>1 stop via 2 hr HEL</td>
+<td>16t 45m</td>
+<td class="mangler-celle"><span class="mangel">5.733 DKK over prisloftet</span></td>
+<td class="knapper"><a class="btn primary" href="https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAOYAQI&amp;hl=en&amp;gl=dk&amp;curr=DKK" target="_blank" rel="noopener">Find på Google Flights</a><a class="btn" href="https://www.jal.co.jp/dk/en/" target="_blank" rel="noopener">JAL.com</a><a class="btn" href="https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&amp;currency=DKK&amp;preferdirects=false&amp;cabinclass=business" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/business?sort=price_a" target="_blank" rel="noopener">Momondo</a></td>
+</tr></tbody></table></div>
+
+<h2>Andre kombinationer</h2><div class="scroll"><table>
+<thead><tr><th>Pr. person</th><th>I alt</th><th>Udrejse</th><th>Hjemrejse</th></tr></thead>
+<tbody><tr>
+<td class="pris">21.473<span class="dim"> DKK</span></td>
+<td class="pris">42.946<span class="dim"> for 2</span></td>
+<td>tor. 5. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.473<span class="dim"> DKK</span></td>
+<td class="pris">42.946<span class="dim"> for 2</span></td>
+<td>tir. 3. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.473<span class="dim"> DKK</span></td>
+<td class="pris">42.946<span class="dim"> for 2</span></td>
+<td>man. 2. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.473<span class="dim"> DKK</span></td>
+<td class="pris">42.946<span class="dim"> for 2</span></td>
+<td>ons. 4. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.585<span class="dim"> DKK</span></td>
+<td class="pris">43.170<span class="dim"> for 2</span></td>
+<td>man. 2. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.585<span class="dim"> DKK</span></td>
+<td class="pris">43.170<span class="dim"> for 2</span></td>
+<td>søn. 1. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.875<span class="dim"> DKK</span></td>
+<td class="pris">43.750<span class="dim"> for 2</span></td>
+<td>tor. 5. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>ons. 18. nov FinnairJAL, British Airways
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.875<span class="dim"> DKK</span></td>
+<td class="pris">43.750<span class="dim"> for 2</span></td>
+<td>tir. 3. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>ons. 18. nov FinnairJAL, British Airways
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.875<span class="dim"> DKK</span></td>
+<td class="pris">43.750<span class="dim"> for 2</span></td>
+<td>man. 2. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>ons. 18. nov FinnairJAL, British Airways
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.875<span class="dim"> DKK</span></td>
+<td class="pris">43.750<span class="dim"> for 2</span></td>
+<td>ons. 4. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>ons. 18. nov FinnairJAL, British Airways
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.968<span class="dim"> DKK</span></td>
+<td class="pris">43.936<span class="dim"> for 2</span></td>
+<td>tir. 3. nov Scandinavian Airlines, ANA
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.972<span class="dim"> DKK</span></td>
+<td class="pris">43.944<span class="dim"> for 2</span></td>
+<td>ons. 4. nov SWISSANA
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.972<span class="dim"> DKK</span></td>
+<td class="pris">43.944<span class="dim"> for 2</span></td>
+<td>tor. 5. nov SWISSANA
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.972<span class="dim"> DKK</span></td>
+<td class="pris">43.944<span class="dim"> for 2</span></td>
+<td>tir. 3. nov SWISSANA
+  <span class="dim">Premium economy</span></td>
+<td>søn. 15. nov KLM
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr><tr>
+<td class="pris">21.987<span class="dim"> DKK</span></td>
+<td class="pris">43.974<span class="dim"> for 2</span></td>
+<td>man. 2. nov British AirwaysJAL
+  <span class="dim">Premium economy</span></td>
+<td>ons. 18. nov FinnairJAL, British Airways
+  <span class="dim">OSA &middot; Premium economy</span></td>
+</tr></tbody></table></div>
+
+<h2>Hvad blev valgt fra</h2>
+<h3>Fravalgt fordi</h3><ul class='liste'><li>LOT har 3 stjerner <span class='dim'>&times;9</span></li><li>20t rejsetid (max 20t) <span class='dim'>&times;8</span></li><li>18.521 DKK over prisloftet <span class='dim'>&times;5</span></li><li>2 stop (max 1); 28t rejsetid (max 20t) <span class='dim'>&times;5</span></li><li>21t rejsetid (max 20t) <span class='dim'>&times;5</span></li><li>355 DKK over prisloftet <span class='dim'>&times;4</span></li><li>2 stop (max 1) <span class='dim'>&times;4</span></li><li>22t rejsetid (max 20t) <span class='dim'>&times;4</span></li><li>2.558 DKK over prisloftet <span class='dim'>&times;4</span></li><li>18.918 DKK over prisloftet <span class='dim'>&times;4</span></li><li>2.275 DKK over prisloftet <span class='dim'>&times;3</span></li><li>10.025 DKK over prisloftet <span class='dim'>&times;3</span></li></ul><h3>Selskaber jeg ikke kender</h3><p class='dim'>De er ikke med i listerne ovenfor. Slå dem op, og skriv dem ind i <code>flyselskaber.json</code>, hvis de skal tælle med.</p><ul class='liste'><li>Brussels Airlines, ANA <span class='dim'>&times;1</span></li><li>Discover Airlines, Lufthansa <span class='dim'>&times;1</span></li></ul>
+
+<footer>Priserne er Google Flights' totalpris for <b>én</b> person og kan ændre sig,
+inden du når at booke. Stjernerne kommer fra din egen liste i
+<code>flyselskaber.json</code>. Udrejse og hjemrejse er to enkeltbilletter &ndash;
+det er derfor, du kan flyve hjem fra en anden by.</footer>
+</div></body></html>
