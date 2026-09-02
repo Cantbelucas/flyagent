@@ -163,6 +163,49 @@ def bedste(raekker: list[dict], ben: str, status=("ok",)) -> list[dict]:
     return sorted(unik.values(), key=lambda r: (r["price"], r["duration_min"] or 9999))
 
 
+def _saelgerpris(r: dict):
+    """Den laveste pris en rigtig sælger tager - hvis vi har været på bookingsiden."""
+    priser = [x["pris"] for x in (r.get("saelgere") or [])
+              if isinstance(x, dict) and x.get("pris")]
+    return min(priser) if priser else None
+
+
+def verificer(raekker: list[dict], k: dict) -> list[dict]:
+    """Retter kortprisen til den pris, sælgeren faktisk tager.
+
+    Googles søgeresultat viser af og til en pris, der ikke holder på
+    bookingsiden - vi har målt afvigelser på 89 %. Har vi først været inde
+    på bookingsiden, er dét den rigtige pris, så den vinder. Bliver
+    afgangen for dyr, ryger den ud af kriterierne igen.
+
+    Returnerer de rækker, hvor prisen blev ændret.
+    """
+    aendret = []
+    for r in raekker:
+        if r.get("pris_verificeret"):
+            continue
+        ny_pris = _saelgerpris(r)
+        if ny_pris is None:
+            continue
+        r["pris_verificeret"] = True
+        gammel = int(r["price"])
+        if ny_pris == gammel:
+            continue
+        r["pris_kort"], r["price"] = gammel, ny_pris
+
+        loft = k["udrejse" if r["ben"] == "ud" else "hjemrejse"]["max_pris_pr_person"]
+        if ny_pris > loft and r["status"] == "ok":
+            over = f"{ny_pris - loft:,}".replace(",", ".")
+            r["fejl"] = list(r["fejl"]) + [f"{over} {k['valuta']} over prisloftet"]
+            r["status"] = "afvist"
+            r["aarsag"] = "; ".join(r["fejl"])
+            # Kun her har den rigtige pris vaeltet afgangen. De ovrige var
+            # allerede afvist paa stop, rejsetid eller stjerner.
+            r["pris_afvist"] = True
+        aendret.append(r)
+    return aendret
+
+
 def naermest(raekker: list[dict], ben: str, antal: int = 8) -> list[dict]:
     """De afgange der var tættest på – dem der kun fejler på én ting.
     Selskaber under stjernekravet kommer ikke med; det krav laver vi ikke om på."""
@@ -355,13 +398,34 @@ def main(argv=None) -> None:
 
     antal = k.get("hent_koebslinks", 6)
     if antal:
-        vaelg, set_id = [], set()
-        for gruppe in (ud[:antal], hjem[:antal], naer_ud[:3], naer_hjem[:3]):
-            for r in gruppe:
-                if id(r) not in set_id:
-                    set_id.add(id(r))
-                    vaelg.append(r)
-        asyncio.run(hent_koebslinks(k, vaelg))
+        # To runder: foerst de bedste efter kortprisen, saa - hvis en pris blev
+        # rettet - de kandidater der derved rykkede op. Uden anden runde ville
+        # den nye topafgang staa med en uverificeret pris.
+        for runde in (1, 2):
+            grupper = ((ud[:antal], hjem[:antal], naer_ud[:3], naer_hjem[:3]) if runde == 1
+                       else (ud[:antal], hjem[:antal]))
+            vaelg, set_id = [], set()
+            for gruppe in grupper:
+                for r in gruppe:
+                    if id(r) not in set_id and not r.get("pris_verificeret"):
+                        set_id.add(id(r))
+                        vaelg.append(r)
+            if not vaelg:
+                break
+            asyncio.run(hent_koebslinks(k, vaelg))
+
+            rettet = verificer(raekker, k)
+            if not rettet:
+                break
+            print(f"\n{len(rettet)} pris(er) holdt ikke paa bookingsiden:")
+            for r in sorted(rettet, key=lambda x: -(x["price"] / x["pris_kort"])):
+                kort = f"{r['pris_kort']:,}".replace(",", ".")
+                rigtig = f"{r['price']:,}".replace(",", ".")
+                ude = "  - opfylder ikke laengere kravene" if r.get("pris_afvist") else ""
+                print(f"  {r['dato']} {r['fra']}-{r['til']}: {kort} -> {rigtig} "
+                      f"{k['valuta']} ({r['price'] / r['pris_kort']:.2f}x){ude}")
+            ud, hjem = bedste(raekker, "ud"), bedste(raekker, "hjem")
+            naer_ud, naer_hjem = naermest(raekker, "ud"), naermest(raekker, "hjem")
 
     par = udskriv(k, ud, hjem, naer_ud, naer_hjem)
 
