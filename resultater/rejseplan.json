@@ -78,7 +78,7 @@
       }
     },
     {
-      "price": 10645,
+      "price": 10634,
       "currency": "DKK",
       "airline": "British AirwaysJAL",
       "depart": "6:25 PM",
@@ -111,7 +111,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-01/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-01/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAxIh8KA0NQSBIKMjAyNi0xMS0wMRoDTEhSKgJCQTIDODE1Ih0KA0xIUhIKMjAyNi0xMS0wMhoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJWDFoME1HRkpZbGxqWVVGQlExbFhVMEZDUnkwdExTMHRMWFozYUdreE1pMXVNa0ZCUVVGQlIzRlpSRTg0UVZSb1ozZEJFZ2xDUVRneE5YeENRVGNhQ2dpVlV4QUFHZ05FUzBzNEhYREVod289EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAxIh8KA0NQSBIKMjAyNi0xMS0wMRoDTEhSKgJCQTIDODE1Ih0KA0xIUhIKMjAyNi0xMS0wMhoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJYnpoRlZEQkpjaTFST1hkQlEzZDJiV2RDUnkwdExTMHRMUzB0TFhaMFptd3hORUZCUVVGQlIzRlpSWFpaUjFReGR6WkJFZ2xDUVRneE5YeENRVGNhQ2dpVlV4QUFHZ05FUzBzNEhYREVod289EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "lastminute.com",
@@ -120,7 +120,9 @@
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 10645
     },
     {
       "price": 10937,
@@ -452,7 +454,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-02/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAyIh8KA0NQSBIKMjAyNi0xMS0wMhoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wMhoDSE5EKgJCQTIBNWoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJVlZWSFFUWklVM3AxYzBWQlF6UkJRWGRDUnkwdExTMHRMUzB0TFMxMmQyNXdNMEZCUVVGQlIzRlpSRTlqU2t4bmRGVkJFZ2xDUVRneE9YeENRVFVhQ2dpbFVoQUFHZ05FUzBzNEhYRCsrUWs9EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAyIh8KA0NQSBIKMjAyNi0xMS0wMhoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wMhoDSE5EKgJCQTIBNWoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJVkZBMllWVmZUMVJIZERSQlF6QXpUbWRDUnkwdExTMHRMUzB0TFMxMmRIcHBOa0ZCUVVGQlIzRlpSWFZ2VGtvemQzTkJFZ2xDUVRneE9YeENRVFVhQ2dpbFVoQUFHZ05FUzBzNEhYRCsrUWs9EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "British Airways",
@@ -471,10 +473,11 @@
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true
     },
     {
-      "price": 10645,
+      "price": 10634,
       "currency": "DKK",
       "airline": "British AirwaysJAL",
       "depart": "8:30 PM",
@@ -507,7 +510,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-02/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAyIh8KA0NQSBIKMjAyNi0xMS0wMhoDTEhSKgJCQTIDODE3Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJZEZWSVExRkhZbnB0YlZWQlF6VnVaRkZDUnkwdExTMHRMUzB0TFhaM2RHZ3hNMEZCUVVGQlIzRlpSRTgwVDNGcGVHTkJFZ2xDUVRneE4zeENRVGNhQ2dpVlV4QUFHZ05FUzBzNEhYREVod289EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAyIh8KA0NQSBIKMjAyNi0xMS0wMhoDTEhSKgJCQTIDODE3Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJYnpoRlZEQkpjaTFST1hkQlEzZDFZa0ZDUnkwdExTMHRMUzB0TFhaMFptd3hORUZCUVVGQlIzRlpSWFpKUlMxV2RDMUJFZ2xDUVRneE4zeENRVGNhQ2dpVlV4QUFHZ05FUzBzNEhYREVod289EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "JAL",
@@ -526,10 +529,12 @@
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 10645
     },
     {
-      "price": 10674,
+      "price": 10849,
       "currency": "DKK",
       "airline": "Scandinavian Airlines, Cathay Pacific",
       "depart": "8:15 AM",
@@ -564,21 +569,18 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-02/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wMiIfCgNDUEgSCjIwMjYtMTEtMDIaA0ZSQSoCU0syAzYzOSIfCgNGUkESCjIwMjYtMTEtMDIaA0hLRyoCQ1gyAzI4OCIfCgNIS0cSCjIwMjYtMTEtMDMaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnxDalJJVURKb2NrZGtlRnBCTXpCQlF6RmtTRkZDUnkwdExTMHRMUzB0TFMxMmRHWnhNMEZCUVVGQlIzRlpSRkZOU0ZRMWFtOUJFaEZUU3pZek9YeERXREk0T0h4RFdEVXlOaG9LQ0xKVEVBQWFBMFJMU3pnZGNJV0xDZz09EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wMiIfCgNDUEgSCjIwMjYtMTEtMDIaA0ZSQSoCU0syAzYzOSIfCgNGUkESCjIwMjYtMTEtMDIaA0hLRyoCQ1gyAzI4OCIfCgNIS0cSCjIwMjYtMTEtMDMaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnxDalJJTjE5NU0ydElUVFV3U1ZWQlEyYzJNVUZDUnkwdExTMHRMUzB0TFhaMGFXRXhNVUZCUVVGQlIzRlpSWGRyU2tjdE5tTkJFaEZUU3pZek9YeERXREk0T0h4RFdEVXlOaG9LQ0xKVEVBQWFBMFJMU3pnZGNJV0xDZz09EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Cathay Pacific",
           "er_selskabet": true,
           "pris": 10849
-        },
-        {
-          "navn": "martiGO",
-          "er_selskabet": false,
-          "pris": 10924
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 10674
     },
     {
       "price": 11174,
@@ -943,7 +945,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-03/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJWDFoME1HRkpZbGxqWVVGQlExbFdVMUZDUnkwdExTMHRMWFozYUdreE1pMXVNa0ZCUVVGQlIzRlpSRTlqU1hWdFFVRkJFZ2xDUVRneE9YeENRVGNhQ2dpbFVoQUFHZ05FUzBzNEhYRCsrUWs9EgIIACIDEgEw&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJVjNoM1YxaDVjRTlFYXpCQlEyTnVRV2RDUnkwdExTMHRMUzB0TFhaMGRXRXhPVUZCUVVGQlIzRlpSWFZ2VG1OWlp6WkJFZ2xDUVRneE9YeENRVGNhQ2dpbFVoQUFHZ05FUzBzNEhYRCsrUWs9EgIIACIDEgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "British Airways",
@@ -962,7 +964,8 @@
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true
     },
     {
       "price": 11029,
@@ -997,7 +1000,11 @@
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261103/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-03/premium?sort=price_a&adults=1"
-      }
+      },
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDQVJOKgJTSzIDNDAyIh8KA0FSThIKMjAyNi0xMS0wMxoDSE5EKgJOSDIDMjIyagcIARIDQ1BIcgwIAhIIL20vMDdkZmtAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJVkZBMllWVmZUMVJIZERSQlF6RkJPV2RDUnkwdExTMHRMUzB0TFMxMmRIcHBOa0ZCUVVGQlIzRlpSWGhaUjJSWVkyTkJFZ3RUU3pRd01ueE9TREl5TWhvS0NKVldFQUFhQTBSTFN6Z2RjUDIxQ2c9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "saelgere": [],
+      "kabine_detalje": "Economy + Premium Economy",
+      "bagage": "1 free carry-on, 2 free checked bags"
     },
     {
       "price": 11032,
@@ -1035,7 +1042,7 @@
       }
     },
     {
-      "price": 12301,
+      "price": 12695,
       "currency": "DKK",
       "airline": "IberiaJAL",
       "depart": "3:30 PM",
@@ -1070,7 +1077,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-03/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDTUFEKgJJQjIDODE4Ih8KA01BRBIKMjAyNi0xMS0wMxoDTlJUKgJJQjIDMjgxagcIARIDQ1BIcgwIAhIIL20vMDdkZmtAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJTFdkQlZWcGpRWE56VWxsQlEycFVTMmRDUnkwdExTMHRMWFowZFc0eE55MXVNVUZCUVVGQlIzRlpSRkZWVG0xaVNqQkJFZ3RKUWpneE9IeEpRakk0TVJvS0NJMWdFQUFhQTBSTFN6Z2RjT3JQQ3c9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDTUFEKgJJQjIDODE4Ih8KA01BRBIKMjAyNi0xMS0wMxoDTlJUKgJJQjIDMjgxagcIARIDQ1BIcgwIAhIIL20vMDdkZmtAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJVTA5TWFraHhORkZCTTJ0QlEyVmpObEZDUnkwdExTMHRMWFozWjNVeE1TMXVNa0ZCUVVGQlIzRlpSWGR6UjNRNVNuRkJFZ3RKUWpneE9IeEpRakk0TVJvS0NJMWdFQUFhQTBSTFN6Z2RjT3JQQ3c9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Iberia",
@@ -1084,7 +1091,9 @@
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 12301
     },
     {
       "price": 12355,
@@ -1383,7 +1392,7 @@
       }
     },
     {
-      "price": 10510,
+      "price": 10685,
       "currency": "DKK",
       "airline": "Scandinavian Airlines, Cathay Pacific",
       "depart": "7:55 AM",
@@ -1418,7 +1427,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-04/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wNCIfCgNDUEgSCjIwMjYtMTEtMDQaA1pSSCoCU0syAzYwMSIfCgNaUkgSCjIwMjYtMTEtMDQaA0hLRyoCQ1gyAzM4MiIfCgNIS0cSCjIwMjYtMTEtMDUaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnxDalJJZDFZMFNXNXdaMlpsWm1OQlExaHZaM2RDUnkwdExTMHRMUzB0TFhaMFlYVXhOVUZCUVVGQlIzRlpSRkEwUTJVNGVXMUJFaEZUU3pZd01YeERXRE00TW54RFdEVXlOaG9LQ0k1U0VBQWFBMFJMU3pnZGNKcjNDUT09EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wNCIfCgNDUEgSCjIwMjYtMTEtMDQaA1pSSCoCU0syAzYwMSIfCgNaUkgSCjIwMjYtMTEtMDQaA0hLRyoCQ1gyAzM4MiIfCgNIS0cSCjIwMjYtMTEtMDUaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnxDalJJT0hNMlpsRmFaRkJIYjJOQlEyYzRZa0ZDUnkwdExTMHRMUzEyZDJzeU1DMXVNVUZCUVVGQlIzRlpSWGRqU0hkclFqUkJFaEZUU3pZd01YeERXRE00TW54RFdEVXlOaG9LQ0k1U0VBQWFBMFJMU3pnZGNKcjNDUT09EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Cathay Pacific",
@@ -1432,7 +1441,9 @@
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 10510
     },
     {
       "price": 10510,
@@ -1472,7 +1483,7 @@
       }
     },
     {
-      "price": 10533,
+      "price": 16583,
       "currency": "DKK",
       "airline": "British AirwaysJAL",
       "depart": "6:45 AM",
@@ -1489,10 +1500,12 @@
       "til": "TYO",
       "kabine": "premium",
       "kabine_navn": "Premium economy",
-      "status": "ok",
-      "fejl": [],
+      "status": "afvist",
+      "fejl": [
+        "4.583 DKK over prisloftet"
+      ],
       "stjerne_fejl": false,
-      "aarsag": "",
+      "aarsag": "4.583 DKK over prisloftet",
       "stjerner": 4,
       "selskaber": [
         "JAL",
@@ -1505,7 +1518,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-04/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA0Ih8KA0NQSBIKMjAyNi0xMS0wNBoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNBoDSE5EKgJCQTIBNWoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJVEVSNWVrRlZNMHhOZURCQlF6SmFlbmRDUnkwdExTMHRMUzB0TFhaM1pHZ3hNMEZCUVVGQlIzRlpSRTgwVDNsVFZWTkJFZ2xDUVRneE9YeENRVFVhQ2dpbFVoQUFHZ05FUzBzNEhYRCsrUWs9EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA0Ih8KA0NQSBIKMjAyNi0xMS0wNBoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNBoDSE5EKgJCQTIBNWoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJVVhoSFNqaDVWVGt3VW05QlEyMHphRkZDUnkwdExTMHRMUzB0TFhaMGNIRXhPRUZCUVVGQlIzRlpSWFU0VDFGMVJVRkJFZ2xDUVRneE9YeENRVFVhQ2dpbFVoQUFHZ05FUzBzNEhYRCsrUWs9EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "British Airways",
@@ -1524,7 +1537,10 @@
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 10533,
+      "pris_afvist": true
     },
     {
       "price": 11032,
@@ -1884,12 +1900,17 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-05/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA1Ih8KA0NQSBIKMjAyNi0xMS0wNRoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNRoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJUVdodGRqTjFPVVEzV2tsQlExbElhMmRDUnkwdExTMHRMUzEyZDNreE5pMXVNa0ZCUVVGQlIzRlpSRTlqU1RKNGNtOUJFZ2xDUVRneE9YeENRVGNhQ2dpbFVoQUFHZ05FUzBzNEhYRCsrUWs9EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA1Ih8KA0NQSBIKMjAyNi0xMS0wNRoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNRoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJVEVSNWVrRlZNMHhOZURCQlF6ZEpiMmRDUnkwdExTMHRMUzB0TFhaM1pHZ3hNMEZCUVVGQlIzRlpSWFZ2VFVobloyVkJFZ2xDUVRneE9YeENRVGNhQ2dpbFVoQUFHZ05FUzBzNEhYRCsrUWs9EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "British Airways",
           "er_selskabet": true,
           "pris": 10533
+        },
+        {
+          "navn": "lastminute.com",
+          "er_selskabet": false,
+          "pris": 10634
         },
         {
           "navn": "martiGO",
@@ -1898,7 +1919,8 @@
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true
     },
     {
       "price": 10937,
@@ -2667,7 +2689,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-15/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-15/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE1Ih8KA05SVBIKMjAyNi0xMS0xNRoDRFhCKgJFSzIDMzE5Ih8KA0RYQhIKMjAyNi0xMS0xNhoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJZDFZMFNXNXdaMlpsWm1OQlExaHljSGRDUnkwdExTMHRMUzB0TFhaMFlYVXhOVUZCUVVGQlIzRlpSRkYzUW1wUmNWVkJFZ3RGU3pNeE9YeEZTekUxTVJvS0NQSk5FQUFhQTBSTFN6Z2RjUEsxQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE1Ih8KA05SVBIKMjAyNi0xMS0xNRoDRFhCKgJFSzIDMzE5Ih8KA0RYQhIKMjAyNi0xMS0xNhoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJTFdkQlZWcGpRWE56VWxsQlEyOU5aWGRDUnkwdExTMHRMWFowZFc0eE55MXVNVUZCUVVGQlIzRlpSWGMwUVRKVlkwMUJFZ3RGU3pNeE9YeEZTekUxTVJvS0NQSk5FQUFhQTBSTFN6Z2RjUEsxQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Emirates",
@@ -2681,7 +2703,8 @@
         }
       ],
       "kabine_detalje": "",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true
     },
     {
       "price": 11180,
@@ -3505,7 +3528,7 @@
       }
     },
     {
-      "price": 10980,
+      "price": 11707,
       "currency": "DKK",
       "airline": "KLM",
       "depart": "1:00 PM",
@@ -3537,16 +3560,18 @@
         "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-15/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE1Ih8KA0tJWBIKMjAyNi0xMS0xNRoDQU1TKgJLTDIDODY4IiAKA0FNUxIKMjAyNi0xMS0xNRoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJYVVFMWFXRXplVU0xTVdOQlEyMWhZbWRDUnkwdExTMHRMWFowZDJneE55MXVNVUZCUVVGQlIzRlpSRkJaUm1vdGRIZEJFZ3hMVERnMk9IeExUREV5TnprYUNnamtWUkFBR2dORVMwczRIWENHc0FvPRICCAAiAxIBMA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE1Ih8KA0tJWBIKMjAyNi0xMS0xNRoDQU1TKgJLTDIDODY4IiAKA0FNUxIKMjAyNi0xMS0xNRoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJVEVSNWVrRlZNMHhOZURCQlF6ZE5ORkZDUnkwdExTMHRMUzB0TFhaM1pHZ3hNMEZCUVVGQlIzRlpSWFozUlcxbVpWTkJFZ3hMVERnMk9IeExUREV5TnprYUNnamtWUkFBR2dORVMwczRIWENHc0FvPRICCAAiAxIBMA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "KLM",
           "er_selskabet": true,
-          "pris": 11708
+          "pris": 11707
         }
       ],
       "kabine_detalje": "Premium Economy + Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 10980
     },
     {
       "price": 11015,
@@ -4258,7 +4283,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-16/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE2Ih8KA05SVBIKMjAyNi0xMS0xNhoDRFhCKgJFSzIDMzE5Ih8KA0RYQhIKMjAyNi0xMS0xNxoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJTjE5NU0ydElUVFV3U1ZWQlEyTlNPV2RDUnkwdExTMHRMUzB0TFhaMGFXRXhNVUZCUVVGQlIzRlpSRkYzUXkxM2NtVkJFZ3RGU3pNeE9YeEZTekUxTVJvS0NQSk5FQUFhQTBSTFN6Z2RjUEsxQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE2Ih8KA05SVBIKMjAyNi0xMS0xNhoDRFhCKgJFSzIDMzE5Ih8KA0RYQhIKMjAyNi0xMS0xNxoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJWVROWE5rOVJibVo2U1hkQlEybFJRV2RDUnkwdExTMHRMUzB0TFMxMmRIVmlOMEZCUVVGQlIzRlpSWGM0UjFWSlowbEJFZ3RGU3pNeE9YeEZTekUxTVJvS0NQSk5FQUFhQTBSTFN6Z2RjUEsxQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Emirates",
@@ -4272,7 +4297,8 @@
         }
       ],
       "kabine_detalje": "",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true
     },
     {
       "price": 9971,
@@ -4346,26 +4372,27 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-16/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE2Ih4KA0hORBIKMjAyNi0xMS0xNhoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE2GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJWDFoME1HRkpZbGxqWVVGQlExbFpNVUZDUnkwdExTMHRMWFozYUdreE1pMXVNa0ZCUVVGQlIzRlpSRkF3UTBoNWFsVkJFZ3BLVERRM2ZFRlpPVFU1R2dvSTIxc1FBQm9EUkV0TE9CMXc3WXNMEgIIACIDEgEw&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE2Ih4KA0hORBIKMjAyNi0xMS0xNhoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE2GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJVlZWSFFUWklVM3AxYzBWQlF6aHdaMEZDUnkwdExTMHRMUzB0TFMxMmQyNXdNMEZCUVVGQlIzRlpSWGROUzNOSmNYZEJFZ3BLVERRM2ZFRlpPVFU1R2dvSTIxc1FBQm9EUkV0TE9CMXc3WXNMEgIIACIDEgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "JAL",
           "er_selskabet": true,
-          "pris": 12693
+          "pris": 12692
         },
         {
           "navn": "British Airways",
           "er_selskabet": true,
-          "pris": 11740
+          "pris": 11739
         },
         {
           "navn": "martiGO",
           "er_selskabet": false,
-          "pris": 11896
+          "pris": 11895
         }
       ],
       "kabine_detalje": "Premium Economy + Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true
     },
     {
       "price": 11895,
@@ -4400,7 +4427,11 @@
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-16/premium?sort=price_a&adults=1"
-      }
+      },
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE2Ih8KA05SVBIKMjAyNi0xMS0xNhoDQlJVKgJOSDIDMjMxIiAKA0JSVRIKMjAyNi0xMS0xNhoDQ1BIKgJTSzIEMTU5NmoMCAISCC9tLzA3ZGZrcgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJTjBad1pVMDBjelJQYkUxQlEzQjNZbWRDUnkwdExTMHRMWFowZDJReE9TMXVNVUZCUVVGQlIzRlpSWGhaU0U1eGMxTkJFZ3hPU0RJek1YeFRTekUxT1RZYUNnajNYQkFBR2dORVMwczRIWERjbmdzPRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "saelgere": [],
+      "kabine_detalje": "Premium Economy + Economy",
+      "bagage": "1 free carry-on, 2 free checked bags"
     },
     {
       "price": 11975,
@@ -5664,7 +5695,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-17/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE3Ih8KA05SVBIKMjAyNi0xMS0xNxoDRFhCKgJFSzIDMzIxIh8KA0RYQhIKMjAyNi0xMS0xOBoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJVTA5TWFraHhORkZCTTJ0QlEyRlVhRUZDUnkwdExTMHRMWFozWjNVeE1TMXVNa0ZCUVVGQlIzRlpSRkpGUmtOeFp6QkJFZ3RGU3pNeU1YeEZTekUxTVJvS0NQSk5FQUFhQTBSTFN6Z2RjUEsxQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE3Ih8KA05SVBIKMjAyNi0xMS0xNxoDRFhCKgJFSzIDMzIxIh8KA0RYQhIKMjAyNi0xMS0xOBoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJTFdkQlZWcGpRWE56VWxsQlEyOU5YM2RDUnkwdExTMHRMWFowZFc0eE55MXVNVUZCUVVGQlIzRlpSWGM0VDA1SlFsZEJFZ3RGU3pNeU1YeEZTekUxTVJvS0NQSk5FQUFhQTBSTFN6Z2RjUEsxQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Emirates",
@@ -5678,7 +5709,8 @@
         }
       ],
       "kabine_detalje": "",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true
     },
     {
       "price": 11201,
@@ -5718,7 +5750,7 @@
       }
     },
     {
-      "price": 11497,
+      "price": 11496,
       "currency": "DKK",
       "airline": "JAL, FinnairIberia, British Airways",
       "depart": "8:20 AM",
@@ -5753,36 +5785,38 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-17/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE3Ih4KA0hORBIKMjAyNi0xMS0xNxoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE3GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJZDFZMFNXNXdaMlpsWm1OQlExaHVkV2RDUnkwdExTMHRMUzB0TFhaMFlYVXhOVUZCUVVGQlIzRlpSRkJ2U25OU1dUQkJFZ3BLVERRM2ZFRlpPVFU1R2dvSTZWa1FBQm9EUkV0TE9CMXd5dTRLEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE3Ih4KA0hORBIKMjAyNi0xMS0xNxoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE3GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJWXpOWlZIUjRjemxyTnpSQlJHNVhlbEZDUnkwdExTMHRMUzB0TFhaM2FHZ3hNa0ZCUVVGQlIzRlpSWGRCVFdGWmF6UkJFZ3BLVERRM2ZFRlpPVFU1R2dvSTZWa1FBQm9EUkV0TE9CMXd5dTRLEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Iberia",
           "er_selskabet": true,
-          "pris": 11497
+          "pris": 11496
         },
         {
           "navn": "JAL",
           "er_selskabet": true,
-          "pris": 16774
+          "pris": 16773
         },
         {
           "navn": "British Airways",
           "er_selskabet": true,
-          "pris": 16386
+          "pris": 16385
         },
         {
           "navn": "Flybillet",
           "er_selskabet": false,
-          "pris": 11728
+          "pris": 11727
         },
         {
           "navn": "martiGO",
           "er_selskabet": false,
-          "pris": 11653
+          "pris": 11652
         }
       ],
       "kabine_detalje": "Premium Economy + Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 11497
     },
     {
       "price": 11736,
@@ -7243,7 +7277,7 @@
       }
     },
     {
-      "price": 11174,
+      "price": 11173,
       "currency": "DKK",
       "airline": "JAL, FinnairBritish Airways",
       "depart": "8:20 AM",
@@ -7277,7 +7311,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-18/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-18/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE4Ih4KA0hORBIKMjAyNi0xMS0xOBoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE4GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJUkhwUlJESlZlRTEzYVZGQlEyMHdSWGRDUnkwdExTMHRMUzB0TFhaM2JXOHhNVUZCUVVGQlIzRlpSRkJaUmtOZlkzRkJFZ3BLVERRM2ZFRlpPVFU1R2dvSXBsY1FBQm9EUkV0TE9CMXd3c2NLEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE4Ih4KA0hORBIKMjAyNi0xMS0xOBoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE4GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJT0hNMlpsRmFaRkJIYjJOQlEyYzJWRUZDUnkwdExTMHRMUzEyZDJzeU1DMXVNVUZCUVVGQlIzRlpSWFozU1RaSE9FVkJFZ3BLVERRM2ZFRlpPVFU1R2dvSXBsY1FBQm9EUkV0TE9CMXd3c2NLEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "JAL",
@@ -7287,16 +7321,18 @@
         {
           "navn": "British Airways",
           "er_selskabet": true,
-          "pris": 11174
+          "pris": 11173
         },
         {
           "navn": "martiGO",
           "er_selskabet": false,
-          "pris": 11330
+          "pris": 11329
         }
       ],
       "kabine_detalje": "Premium Economy + Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 11174
     },
     {
       "price": 11180,
@@ -7971,7 +8007,7 @@
       }
     },
     {
-      "price": 10576,
+      "price": 19937,
       "currency": "DKK",
       "airline": "KLM",
       "depart": "12:35 PM",
@@ -7988,10 +8024,12 @@
       "til": "CPH",
       "kabine": "premium",
       "kabine_navn": "Premium economy",
-      "status": "ok",
-      "fejl": [],
+      "status": "afvist",
+      "fejl": [
+        "4.937 DKK over prisloftet"
+      ],
       "stjerne_fejl": false,
-      "aarsag": "",
+      "aarsag": "4.937 DKK over prisloftet",
       "stjerner": 4,
       "selskaber": [
         "KLM"
@@ -8003,16 +8041,19 @@
         "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE4Ih8KA0tJWBIKMjAyNi0xMS0xOBoDQU1TKgJLTDIDODYwIiAKA0FNUxIKMjAyNi0xMS0xOBoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJTFdkQlZWcGpRWE56VWxsQlEycFJRV2RDUnkwdExTMHRMWFowZFc0eE55MXVNVUZCUVVGQlIzRlpSRkJOVFVGQ2NqaEJFZ3hMVERnMk1IeExUREV5TnprYUNnalFVaEFBR2dORVMwczRIWENZL3drPRICCAAiAwoBMA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE4Ih8KA0tJWBIKMjAyNi0xMS0xOBoDQU1TKgJLTDIDODYwIiAKA0FNUxIKMjAyNi0xMS0xOBoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJVkZBMllWVmZUMVJIZERSQlF6QTFOMmRDUnkwdExTMHRMUzB0TFMxMmRIcHBOa0ZCUVVGQlIzRlpSWFpuVEdvdE5IZEJFZ3hMVERnMk1IeExUREV5TnprYUNnalFVaEFBR2dORVMwczRIWENZL3drPRICCAAiAwoBMA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "KLM",
           "er_selskabet": true,
-          "pris": 19938
+          "pris": 19937
         }
       ],
       "kabine_detalje": "Premium Economy + Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 10576,
+      "pris_afvist": true
     },
     {
       "price": 11292,
@@ -8054,7 +8095,7 @@
       }
     },
     {
-      "price": 11383,
+      "price": 11382,
       "currency": "DKK",
       "airline": "FinnairJAL",
       "depart": "11:25 PM",
@@ -8087,21 +8128,18 @@
         "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE4Ih4KA0tJWBIKMjAyNi0xMS0xOBoDSEVMKgJBWTICNjgiHwoDSEVMEgoyMDI2LTExLTE5GgNDUEgqAkFZMgM5NTNqDAgCEggvbS8wZHF5d3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJTjBad1pVMDBjelJQYkUxQlEyczRlRkZDUnkwdExTMHRMWFowZDJReE9TMXVNVUZCUVVGQlIzRlpSRkJqU21OelVXRkJFZ3BCV1RZNGZFRlpPVFV6R2dvSTkxZ1FBQm9EUkV0TE9CMXc1ZUFLEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE4Ih4KA0tJWBIKMjAyNi0xMS0xOBoDSEVMKgJBWTICNjgiHwoDSEVMEgoyMDI2LTExLTE5GgNDUEgqAkFZMgM5NTNqDAgCEggvbS8wZHF5d3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJUkhwUlJESlZlRTEzYVZGQlEzSnFjRkZDUnkwdExTMHRMUzB0TFhaM2JXOHhNVUZCUVVGQlIzRlpSWFozVFhsUVJVMUJFZ3BCV1RZNGZFRlpPVFV6R2dvSTkxZ1FBQm9EUkV0TE9CMXc1ZUFLEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Finnair",
           "er_selskabet": true,
-          "pris": 11383
-        },
-        {
-          "navn": "martiGO",
-          "er_selskabet": false,
-          "pris": 11648
+          "pris": 11382
         }
       ],
       "kabine_detalje": "Premium Economy + Economy",
-      "bagage": "1 free carry-on, 2 free checked bags"
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true,
+      "pris_kort": 11383
     },
     {
       "price": 12004,
