@@ -92,6 +92,20 @@ jobs:
           ALTID_BESKED: ${{ inputs.altid_besked && '1' || '0' }}
         run: python ci_besked.py
 
+      - name: Send rejseplanen paa mail
+        if: always()
+        env:
+          # Alle vaerdier hentes fra GitHub Secrets - se GUIDE.md.
+          # Uden dem springer trinnet stille over.
+          MAIL_SERVER: ${{ secrets.MAIL_SERVER }}
+          MAIL_PORT: ${{ secrets.MAIL_PORT }}
+          MAIL_BRUGER: ${{ secrets.MAIL_BRUGER }}
+          MAIL_KODE: ${{ secrets.MAIL_KODE }}
+          MAIL_TIL: ${{ secrets.MAIL_TIL }}
+          MAIL_FRA: ${{ secrets.MAIL_FRA }}
+          ALTID_BESKED: ${{ inputs.altid_besked && '1' || '0' }}
+        run: python send_mail.py
+
       - name: Gem rapporten som download
         if: always()
         uses: actions/upload-artifact@v4
