@@ -1,0 +1,101 @@
+name: Flysoegning
+
+# Koerer to gange om dagen paa GitHubs servere. Din egen computer maa gerne
+# vaere slukket. Tiderne er UTC: 06:00 og 16:00 UTC svarer til 07:00 og 17:00
+# dansk tid om vinteren, 08:00 og 18:00 om sommeren.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+    inputs:
+      altid_besked:
+        description: "Send besked selvom prisen ikke er faldet"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: flysoegning
+  cancel-in-progress: false
+
+jobs:
+  soeg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Hent koden
+        uses: actions/checkout@v4
+        with:
+          # Hent altid nyeste udgave af hovedgrenen. Uden det bruger fx en
+          # gen-koersel den gamle commit, og rapporten kan ikke gemmes bagefter.
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Saet Python op
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer Playwright og browseren
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Soeg efter fly
+        run: python soeg.py --stille
+
+      - name: Gem rapporten i repoet
+        env:
+          GREN: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "Flyagent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resultater
+          if git diff --staged --quiet; then
+            echo "Priserne er uaendrede - intet at gemme."
+            exit 0
+          fi
+          git commit -m "Flysoegning $(date -u '+%Y-%m-%d %H:%M') UTC"
+          # Rapporten skrives forfra hver gang, saa en aeldre udgave paa serveren
+          # skal aldrig flettes ind - vores nye filer vinder (-X theirs).
+          for forsoeg in 1 2 3; do
+            if ! git fetch origin "$GREN"; then
+              echo "Forsoeg $forsoeg: kunne ikke hente fra GitHub - proever igen."
+              sleep 5
+              continue
+            fi
+            if ! git rebase -X theirs "origin/$GREN"; then
+              git rebase --abort || true
+              echo "Forsoeg $forsoeg: kunne ikke flette - proever igen."
+              sleep 5
+              continue
+            fi
+            if git push origin "HEAD:$GREN"; then
+              echo "Rapporten er gemt i repoet."
+              exit 0
+            fi
+            echo "Forsoeg $forsoeg: kunne ikke pushe - proever igen."
+            sleep 5
+          done
+          echo "Kunne ikke gemme rapporten i repoet." >&2
+          exit 1
+
+      - name: Send besked ved prisfald
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ALTID_BESKED: ${{ inputs.altid_besked && '1' || '0' }}
+        run: python ci_besked.py
+
+      - name: Gem rapporten som download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rejseplan
+          path: resultater/
+          retention-days: 30
