@@ -1,11 +1,20 @@
 name: Flysoegning
 
 # Koerer to gange om dagen paa GitHubs servere. Din egen computer maa gerne
-# vaere slukket. Tiderne er UTC: 06:00 og 16:00 UTC svarer til 07:00 og 17:00
-# dansk tid om vinteren, 08:00 og 18:00 om sommeren.
+# vaere slukket. GitHubs cron koerer ALTID i UTC og foelger ikke dansk
+# sommer-/vintertid, saa klokkeslaettet i dansk tid skifter en time hen over
+# aaret:
+#   Morgen 04:02 UTC = 06:02 dansk om SOMMEREN (til 25. oktober), 05:02 om vinteren.
+#   Eftermiddag 16:00 UTC = 18:00 dansk om sommeren, 17:00 om vinteren.
+# Minuttet 02 i stedet for 00 rammer et mindre belastet tidspunkt, saa
+# koerslen starter mere praecist. Skal morgenmailen fortsat komme 06:02 dansk
+# efter 25. oktober (vintertid), aendres morgen-cron'en til "2 5 * * *".
+#
+# Morgenkoerslen sender ALTID mail og opretter altid en issue - ogsaa hvis
+# prisen ikke er faldet. Eftermiddagskoerslen hoerer du kun fra ved prisfald.
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "2 4 * * *"
     - cron: "0 16 * * *"
   workflow_dispatch:
     inputs:
@@ -89,7 +98,7 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
-          ALTID_BESKED: ${{ inputs.altid_besked && '1' || '0' }}
+          ALTID_BESKED: ${{ (inputs.altid_besked || github.event.schedule == '2 4 * * *') && '1' || '0' }}
         run: python ci_besked.py
 
       - name: Send rejseplanen paa mail
@@ -103,7 +112,7 @@ jobs:
           MAIL_KODE: ${{ secrets.MAIL_KODE }}
           MAIL_TIL: ${{ secrets.MAIL_TIL }}
           MAIL_FRA: ${{ secrets.MAIL_FRA }}
-          ALTID_BESKED: ${{ inputs.altid_besked && '1' || '0' }}
+          ALTID_BESKED: ${{ (inputs.altid_besked || github.event.schedule == '2 4 * * *') && '1' || '0' }}
         run: python send_mail.py
 
       - name: Gem rapporten som download
