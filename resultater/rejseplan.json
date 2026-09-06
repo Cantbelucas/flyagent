@@ -42,44 +42,6 @@
   },
   "alle_tilbud": [
     {
-      "price": 9493,
-      "currency": "DKK",
-      "airline": "LOT, Korean Air",
-      "depart": "10:10 AM",
-      "arrive": "5:20 PM+1",
-      "duration_min": 1390,
-      "stops": 2,
-      "route": "CPH-NRT",
-      "layover": "WAW, ICN",
-      "co2_kg": 801,
-      "raw": "10:10 AM | – | 5:20 PM+1 | LOT, Korean Air | 23 hr 10 min | CPH–NRT | 2 stops | WAW, ICN | 801 kg CO2e | -15% emissions | DKK 9,493 | Economy + Premium Economy",
-      "ben": "ud",
-      "dato": "2026-11-01",
-      "fra": "CPH",
-      "til": "TYO",
-      "kabine": "premium",
-      "kabine_navn": "Premium economy",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "LOT har 3 stjerner"
-      ],
-      "stjerne_fejl": true,
-      "aarsag": "2 stop (max 1); LOT har 3 stjerner",
-      "stjerner": 3,
-      "selskaber": [
-        "Korean Air",
-        "LOT"
-      ],
-      "booking": "https://www.koreanair.com/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDFqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261101/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
-        "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-01/premium?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-01/premium?sort=price_a&adults=1"
-      }
-    },
-    {
       "price": 10076,
       "currency": "DKK",
       "airline": "LOT",
@@ -90,7 +52,7 @@
       "route": "CPH-NRT",
       "layover": "1 hr 40 min WAW",
       "co2_kg": 834,
-      "raw": "7:50 PM | – | 7:40 PM+1 | LOT | 15 hr 50 min | CPH–NRT | 1 stop | 1 hr 40 min WAW | 834 kg CO2e | -12% emissions | DKK 10,076 | Economy + Premium Economy",
+      "raw": "7:50 PM | – | 7:40 PM+1 | LOT | 15 hr 50 min | CPH–NRT | 1 stop | 1 hr 40 min WAW | 834 kg CO2e | -11% emissions | DKK 10,076 | Economy + Premium Economy",
       "ben": "ud",
       "dato": "2026-11-01",
       "fra": "CPH",
@@ -223,6 +185,41 @@
       }
     },
     {
+      "price": 11434,
+      "currency": "DKK",
+      "airline": "EmiratesQantas",
+      "depart": "2:45 PM",
+      "arrive": "10:30 PM+1",
+      "duration_min": 1425,
+      "stops": 1,
+      "route": "CPH-HND",
+      "layover": "8 hr 10 min DXB",
+      "co2_kg": 1464,
+      "raw": "2:45 PM | – | 10:30 PM+1 | EmiratesQantas | 23 hr 45 min | CPH–HND | 1 stop | 8 hr 10 min DXB | 1,464 kg CO2e | +55% emissions | DKK 11,434",
+      "ben": "ud",
+      "dato": "2026-11-01",
+      "fra": "CPH",
+      "til": "TYO",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "ok",
+      "fejl": [],
+      "stjerne_fejl": false,
+      "aarsag": "",
+      "stjerner": 4,
+      "selskaber": [
+        "Emirates",
+        "Qantas"
+      ],
+      "booking": "https://www.emirates.com/dk/danish/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDFqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261101/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-01/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-01/premium?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 12355,
       "currency": "DKK",
       "airline": "Finnair, JALBritish Airways",
@@ -308,7 +305,7 @@
       "route": "CPH-NRT",
       "layover": "2 hr 45 min DXB",
       "co2_kg": 1400,
-      "raw": "2:45 PM | – | 5:20 PM+1 | EmiratesQantas | 18 hr 35 min | CPH–NRT | 1 stop | 2 hr 45 min DXB | 1,400 kg CO2e | +48% emissions | DKK 14,275",
+      "raw": "2:45 PM | – | 5:20 PM+1 | EmiratesQantas | 18 hr 35 min | CPH–NRT | 1 stop | 2 hr 45 min DXB | 1,400 kg CO2e | +49% emissions | DKK 14,275",
       "ben": "ud",
       "dato": "2026-11-01",
       "fra": "CPH",
@@ -335,17 +332,17 @@
       }
     },
     {
-      "price": 15082,
+      "price": 17262,
       "currency": "DKK",
-      "airline": "KLM",
-      "depart": "9:45 AM",
-      "arrive": "11:45 AM+1",
-      "duration_min": 1080,
+      "airline": "FinnairJAL",
+      "depart": "1:00 PM",
+      "arrive": "2:25 PM+1",
+      "duration_min": 1045,
       "stops": 1,
-      "route": "CPH-NRT",
-      "layover": "3 hr 5 min AMS",
-      "co2_kg": 962,
-      "raw": "9:45 AM | – | 11:45 AM+1 | KLM | 18 hr | CPH–NRT | 1 stop | 3 hr 5 min AMS | 962 kg CO2e | Avg emissions | DKK 15,082 | Economy + Premium Economy",
+      "route": "CPH-HND",
+      "layover": "2 hr 25 min HEL",
+      "co2_kg": 906,
+      "raw": "1:00 PM | – | 2:25 PM+1 | FinnairJAL | 17 hr 25 min | CPH–HND | 1 stop | 2 hr 25 min HEL | 906 kg CO2e | Avg emissions | DKK 17,262 | Economy + Premium Economy",
       "ben": "ud",
       "dato": "2026-11-01",
       "fra": "CPH",
@@ -354,15 +351,16 @@
       "kabine_navn": "Premium economy",
       "status": "afvist",
       "fejl": [
-        "3.082 DKK over prisloftet"
+        "5.262 DKK over prisloftet"
       ],
       "stjerne_fejl": false,
-      "aarsag": "3.082 DKK over prisloftet",
+      "aarsag": "5.262 DKK over prisloftet",
       "stjerner": 4,
       "selskaber": [
-        "KLM"
+        "JAL",
+        "Finnair"
       ],
-      "booking": "https://www.klm.dk/",
+      "booking": "https://www.jal.co.jp/dk/en/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDFqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261101/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
@@ -478,7 +476,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-02/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqHARIKMjAyNi0xMS0wMiIgCgNDUEgSCjIwMjYtMTEtMDIaA0JSVSoCU04yBDIyNjgiHwoDQlJVEgoyMDI2LTExLTAyGgNIS0cqAkNYMgMyOTQiHwoDSEtHEgoyMDI2LTExLTAzGgNITkQqAkNYMgM1NDhqBwgBEgNDUEhyDAgCEggvbS8wN2Rma0ABSAJwAYIBCwj___________8BmAEC&tfu=CnxDalJJU2tsRFYyMU5UVmd0ZUZsQlRXRmFSbWRDUnkwdExTMHRMUzF2ZVdkak55MXVNVUZCUVVGQlIzRmpWMWh6U1hCSVJ5MUJFaEpUVGpJeU5qaDhRMWd5T1RSOFExZzFORGdhQ2dpdlVoQUFHZ05FUzBzNEhYRGkvd2s9EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqHARIKMjAyNi0xMS0wMiIgCgNDUEgSCjIwMjYtMTEtMDIaA0JSVSoCU04yBDIyNjgiHwoDQlJVEgoyMDI2LTExLTAyGgNIS0cqAkNYMgMyOTQiHwoDSEtHEgoyMDI2LTExLTAzGgNITkQqAkNYMgM1NDhqBwgBEgNDUEhyDAgCEggvbS8wN2Rma0ABSAJwAYIBCwj___________8BmAEC&tfu=CnxDalJJWlRaUllXSjNjMkpOYjJkQlNGRjNVWGRDUnkwdExTMHRMUzB0TFhCcWRtZ3lNMEZCUVVGQlIzRmtTbTFKUWxCWVMyRkJFaEpUVGpJeU5qaDhRMWd5T1RSOFExZzFORGdhQ2dpdlVoQUFHZ05FUzBzNEhYRGkvd2s9EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Cathay Pacific",
@@ -535,7 +533,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-02/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAyIh8KA0NQSBIKMjAyNi0xMS0wMhoDTEhSKgJCQTIDODE3Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJVFZkdkxUWmlaeTA1Wm1OQlRUZHlkVkZDUnkwdExTMHRMUzB0YjJ0aVozSXhPVUZCUVVGQlIzRmpWMVpaU2xOak0wZEJFZ2xDUVRneE4zeENRVGNhQ2dpVVV4QUFHZ05FUzBzNEhYQ0VqQW89EgIIACIDEgEw&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAyIh8KA0NQSBIKMjAyNi0xMS0wMhoDTEhSKgJCQTIDODE3Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJY2xJd1QyTnJVSFpxT0c5QlNHOHhNbmRDUnkwdExTMHRMUzB0TFMxd1ptbHJOa0ZCUVVGQlIzRmtTbW93U25kaGRGTkJFZ2xDUVRneE4zeENRVGNhQ2dpVVV4QUFHZ05FUzBzNEhYQ0VqQW89EgIIACIDEgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "JAL",
@@ -546,11 +544,6 @@
           "navn": "lastminute.com",
           "er_selskabet": false,
           "pris": 10633
-        },
-        {
-          "navn": "martiGO",
-          "er_selskabet": false,
-          "pris": 10719
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
@@ -569,7 +562,7 @@
       "route": "CPH-NRT",
       "layover": "FRA, HKG",
       "co2_kg": 1352,
-      "raw": "8:15 AM | – | 1:10 PM+1 | Scandinavian Airlines, Cathay PacificOperated by Cityjet | 20 hr 55 min | CPH–NRT | 2 stops | FRA, HKG | 1,352 kg CO2e | +43% emissions | DKK 10,672 | Economy + Premium Economy",
+      "raw": "8:15 AM | – | 1:10 PM+1 | Scandinavian Airlines, Cathay PacificOperated by Cityjet | 20 hr 55 min | CPH–NRT | 2 stops | FRA, HKG | 1,352 kg CO2e | +44% emissions | DKK 10,672 | Economy + Premium Economy",
       "ben": "ud",
       "dato": "2026-11-02",
       "fra": "CPH",
@@ -594,7 +587,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-02/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wMiIfCgNDUEgSCjIwMjYtMTEtMDIaA0ZSQSoCU0syAzYzOSIfCgNGUkESCjIwMjYtMTEtMDIaA0hLRyoCQ1gyAzI4OCIfCgNIS0cSCjIwMjYtMTEtMDMaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnxDalJJYldKS1gwOVJSeTFrVDJOQlRFWnBTRUZDUnkwdExTMHRMUzF2YTNkNk9TMXVNVUZCUVVGQlIzRmpWMWcwU1MxeVRFMUJFaEZUU3pZek9YeERXREk0T0h4RFdEVXlOaG9LQ0xCVEVBQWFBMFJMU3pnZGNMZVBDZz09EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wMiIfCgNDUEgSCjIwMjYtMTEtMDIaA0ZSQSoCU0syAzYzOSIfCgNGUkESCjIwMjYtMTEtMDIaA0hLRyoCQ1gyAzI4OCIfCgNIS0cSCjIwMjYtMTEtMDMaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnxDalJJVUdveVZFcHZRM05HT0VGQlNuQmpOMmRDUnkwdExTMHRMUzB0Y0daaVpXSXhPVUZCUVVGQlIzRmtTbTFKVFhRelpIRkJFaEZUU3pZek9YeERXREk0T0h4RFdEVXlOaG9LQ0xCVEVBQWFBMFJMU3pnZGNMZVBDZz09EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Cathay Pacific",
@@ -633,6 +626,61 @@
       "selskaber": [
         "ANA",
         "SWISS"
+      ],
+      "booking": "https://www.ana.co.jp/en/dk/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDJqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261102/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-02/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-02/premium?sort=price_a&adults=1"
+      },
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTAyIiAKA0NQSBIKMjAyNi0xMS0wMhoDWlJIKgJMWDIEMTI2NyIfCgNaUkgSCjIwMjYtMTEtMDIaA05SVCoCTFgyAzE2MGoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJU0U1MFpuazFZWGxvWmxGQlJqaDROSGRDUnkwdExTMHRMUzF3Wm1adE15MXVNVUZCUVVGQlIzRmtTbTVOVDNSMkxWRkJFZ3hNV0RFeU5qZDhURmd4TmpBYUNnaVhWaEFBR2dORVMwczRIWENCdXdvPRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "saelgere": [
+        {
+          "navn": "SWISS",
+          "er_selskabet": true,
+          "pris": 11031
+        },
+        {
+          "navn": "Flightnetwork",
+          "er_selskabet": false,
+          "pris": 11111
+        },
+        {
+          "navn": "martiGO",
+          "er_selskabet": false,
+          "pris": 11278
+        }
+      ],
+      "kabine_detalje": "Economy + Premium Economy",
+      "bagage": "1 free carry-on, 2 free checked bags",
+      "pris_verificeret": true
+    },
+    {
+      "price": 11279,
+      "currency": "DKK",
+      "airline": "Brussels Airlines, ANA",
+      "depart": "12:15 PM",
+      "arrive": "4:00 PM+1",
+      "duration_min": 1185,
+      "stops": 1,
+      "route": "CPH-NRT",
+      "layover": "4 hr 40 min BRU",
+      "co2_kg": 968,
+      "raw": "12:15 PM | – | 4:00 PM+1 | Brussels Airlines, ANA | 19 hr 45 min | CPH–NRT | 1 stop | 4 hr 40 min BRU | 968 kg CO2e | Avg emissions | DKK 11,279 | Economy + Premium Economy",
+      "ben": "ud",
+      "dato": "2026-11-02",
+      "fra": "CPH",
+      "til": "TYO",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "ukendt",
+      "fejl": [],
+      "stjerne_fejl": false,
+      "aarsag": "kender ikke 'Brussels Airlines'",
+      "stjerner": 5,
+      "selskaber": [
+        "ANA"
       ],
       "booking": "https://www.ana.co.jp/en/dk/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDJqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
@@ -691,7 +739,7 @@
       "route": "CPH-HND",
       "layover": "3 hr 40 min LHR",
       "co2_kg": 1098,
-      "raw": "6:45 AM | – | 10:25 AM+1 | British AirwaysJAL | 19 hr 40 min | CPH–HND | 1 stop | 3 hr 40 min LHR | 1,098 kg CO2e | +16% emissions | DKK 12,483 | Economy + Premium Economy",
+      "raw": "6:45 AM | – | 10:25 AM+1 | British AirwaysJAL | 19 hr 40 min | CPH–HND | 1 stop | 3 hr 40 min LHR | 1,098 kg CO2e | +17% emissions | DKK 12,483 | Economy + Premium Economy",
       "ben": "ud",
       "dato": "2026-11-02",
       "fra": "CPH",
@@ -972,7 +1020,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-03/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJUjJoM01IcFlWR28yZFUxQlVIcFpkVUZDUnkwdExTMHRMUzB0TFc5NVkycHZOMEZCUVVGQlIzRmpWMVpaU2tKZlpFbEJFZ2xDUVRneE9YeENRVGNhQ2dpa1VoQUFHZ05FUzBzNEhYQzMvZ2s9EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wMxoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJU0haYU1FNXhiMHhyYjBsQlNWQjFSWGRDUnkwdExTMHRMUzB0TFMxd2FubDNORUZCUVVGQlIzRmtTbW93U21ScVJVOUJFZ2xDUVRneE9YeENRVGNhQ2dpa1VoQUFHZ05FUzBzNEhYQzMvZ2s9EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "British Airways",
@@ -1065,7 +1113,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-03/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-03/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDQVJOKgJTSzIDNDAyIh8KA0FSThIKMjAyNi0xMS0wMxoDSE5EKgJOSDIDMjIyagcIARIDQ1BIcgwIAhIIL20vMDdkZmtAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJUlVOYWFWUmZURGhTWVVsQlRGbGpTbmRDUnkwdExTMHRMUzB0TFMxdmVXVjFOa0ZCUVVGQlIzRmpWMWx2U2kxUFZVVkJFZ3RUU3pRd01ueE9TREl5TWhvS0NKUldFQUFhQTBSTFN6Z2RjTks2Q2c9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTAzIh8KA0NQSBIKMjAyNi0xMS0wMxoDQVJOKgJTSzIDNDAyIh8KA0FSThIKMjAyNi0xMS0wMxoDSE5EKgJOSDIDMjIyagcIARIDQ1BIcgwIAhIIL20vMDdkZmtAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJTjNkb01UZEVOMFpLZFRCQlIzZzRlbWRDUnkwdExTMHRMUzB0TFMxd1puZ3pOMEZCUVVGQlIzRmtTbTVOVDNwNk1tVkJFZ3RUU3pRd01ueE9TREl5TWhvS0NKUldFQUFhQTBSTFN6Z2RjTks2Q2c9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [],
       "kabine_detalje": "Economy + Premium Economy",
       "bagage": "1 free carry-on, 2 free checked bags"
@@ -1399,7 +1447,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-04/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wNCIfCgNDUEgSCjIwMjYtMTEtMDQaA1pSSCoCU0syAzYwMSIfCgNaUkgSCjIwMjYtMTEtMDQaA0hLRyoCQ1gyAzM4MiIfCgNIS0cSCjIwMjYtMTEtMDUaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnxDalJJVGtFNU0wNTRUMWN6VkRSQlRUZDNhbEZDUnkwdExTMHRMUzB0YjNsalpua3hOMEZCUVVGQlIzRmpWMWhqVEV0b1ptZEJFaEZUU3pZd01YeERXRE00TW54RFdEVXlOaG9LQ0l0U0VBQWFBMFJMU3pnZGNMUDdDUT09EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqGARIKMjAyNi0xMS0wNCIfCgNDUEgSCjIwMjYtMTEtMDQaA1pSSCoCU0syAzYwMSIfCgNaUkgSCjIwMjYtMTEtMDQaA0hLRyoCQ1gyAzM4MiIfCgNIS0cSCjIwMjYtMTEtMDUaA05SVCoCQ1gyAzUyNmoHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnxDalJJUTI1Q2FqSnpibEZwTTAxQlNHRkhRVUZDUnkwdExTMHRMUzB0TFMxd1ptVjJPRUZCUVVGQlIzRmtTbXcwVHpWalNrVkJFaEZUU3pZd01YeERXRE00TW54RFdEVXlOaG9LQ0l0U0VBQWFBMFJMU3pnZGNMUDdDUT09EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Cathay Pacific",
@@ -1413,7 +1461,7 @@
       "pris_kort": 10507
     },
     {
-      "price": 10633,
+      "price": 12457,
       "currency": "DKK",
       "airline": "British AirwaysJAL",
       "depart": "8:05 PM",
@@ -1430,10 +1478,12 @@
       "til": "TYO",
       "kabine": "premium",
       "kabine_navn": "Premium economy",
-      "status": "ok",
-      "fejl": [],
+      "status": "afvist",
+      "fejl": [
+        "457 DKK over prisloftet"
+      ],
       "stjerne_fejl": false,
-      "aarsag": "",
+      "aarsag": "457 DKK over prisloftet",
       "stjerner": 4,
       "selskaber": [
         "JAL",
@@ -1446,23 +1496,19 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-04/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA0Ih8KA0NQSBIKMjAyNi0xMS0wNBoDTEhSKgJCQTIDODE3Ih0KA0xIUhIKMjAyNi0xMS0wNRoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJWVhCT1NqRTRWRlp4Um5kQlVHZFJWWGRDUnkwdExTMHRMUzB0YjNsamFYVXhNMEZCUVVGQlIzRmpWMVl3U1VkVFQybEJFZ2xDUVRneE4zeENRVGNhQ2dpVVV4QUFHZ05FUzBzNEhYQ0VqQW89EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA0Ih8KA0NQSBIKMjAyNi0xMS0wNBoDTEhSKgJCQTIDODE3Ih0KA0xIUhIKMjAyNi0xMS0wNRoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJZFRKbFlVRXdTMHROVTFGQlNHNTZiSGRDUnkwdExTMHRMUzB0TFhCcVltMXRPVUZCUVVGQlIzRmtTbXRKU0hKb2FGRkJFZ2xDUVRneE4zeENRVGNhQ2dpVVV4QUFHZ05FUzBzNEhYQ0VqQW89EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "JAL",
           "er_selskabet": true,
           "pris": 12457
-        },
-        {
-          "navn": "lastminute.com",
-          "er_selskabet": false,
-          "pris": 10633
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
       "bagage": "1 free carry-on, 2 free checked bags",
       "pris_verificeret": true,
-      "pris_kort": 10644
+      "pris_kort": 10644,
+      "pris_afvist": true
     },
     {
       "price": 11031,
@@ -1500,40 +1546,6 @@
       }
     },
     {
-      "price": 11272,
-      "currency": "DKK",
-      "airline": "KLM",
-      "depart": "6:00 AM",
-      "arrive": "7:10 AM+1",
-      "duration_min": 1030,
-      "stops": 1,
-      "route": "CPH-NRT",
-      "layover": "2 hr 10 min AMS",
-      "co2_kg": 962,
-      "raw": "6:00 AM | – | 7:10 AM+1 | KLM | 17 hr 10 min | CPH–NRT | 1 stop | 2 hr 10 min AMS | 962 kg CO2e | Avg emissions | DKK 11,272 | Economy + Premium Economy",
-      "ben": "ud",
-      "dato": "2026-11-04",
-      "fra": "CPH",
-      "til": "TYO",
-      "kabine": "premium",
-      "kabine_navn": "Premium economy",
-      "status": "ok",
-      "fejl": [],
-      "stjerne_fejl": false,
-      "aarsag": "",
-      "stjerner": 4,
-      "selskaber": [
-        "KLM"
-      ],
-      "booking": "https://www.klm.dk/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261104/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
-        "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-04/premium?sort=price_a&adults=1"
-      }
-    },
-    {
       "price": 11279,
       "currency": "DKK",
       "airline": "Brussels Airlines, ANA",
@@ -1560,6 +1572,42 @@
         "ANA"
       ],
       "booking": "https://www.ana.co.jp/en/dk/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261104/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-04/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-04/premium?sort=price_a&adults=1"
+      }
+    },
+    {
+      "price": 12164,
+      "currency": "DKK",
+      "airline": "KLM",
+      "depart": "6:00 AM",
+      "arrive": "7:10 AM+1",
+      "duration_min": 1030,
+      "stops": 1,
+      "route": "CPH-NRT",
+      "layover": "2 hr 10 min AMS",
+      "co2_kg": 962,
+      "raw": "6:00 AM | – | 7:10 AM+1 | KLM | 17 hr 10 min | CPH–NRT | 1 stop | 2 hr 10 min AMS | 962 kg CO2e | Avg emissions | DKK 12,164 | Economy + Premium Economy",
+      "ben": "ud",
+      "dato": "2026-11-04",
+      "fra": "CPH",
+      "til": "TYO",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "afvist",
+      "fejl": [
+        "164 DKK over prisloftet"
+      ],
+      "stjerne_fejl": false,
+      "aarsag": "164 DKK over prisloftet",
+      "stjerner": 4,
+      "selskaber": [
+        "KLM"
+      ],
+      "booking": "https://www.klm.dk/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261104/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
@@ -1861,7 +1909,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-05/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA1Ih8KA0NQSBIKMjAyNi0xMS0wNRoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNRoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJY3pSU1ZtUk5XV015VEZGQlRGUjVaa0ZDUnkwdExTMHRMUzB0TFc5cmNuQXhOMEZCUVVGQlIzRmpWMVpaU2xSRU0wMUJFZ2xDUVRneE9YeENRVGNhQ2dpa1VoQUFHZ05FUzBzNEhYQzMvZ2s9EgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpjEgoyMDI2LTExLTA1Ih8KA0NQSBIKMjAyNi0xMS0wNRoDTEhSKgJCQTIDODE5Ih0KA0xIUhIKMjAyNi0xMS0wNRoDSE5EKgJCQTIBN2oHCAESA0NQSHIMCAISCC9tLzA3ZGZrQAFIAnABggELCP___________wGYAQI&tfu=CnBDalJJWkROTFJtVkpUMWhVYkRSQlNHNUdXbmRDUnkwdExTMHRMUzB0TFhCcVltUmlOa0ZCUVVGQlIzRmtTbW93U21sdldXbEJFZ2xDUVRneE9YeENRVGNhQ2dpa1VoQUFHZ05FUzBzNEhYQzMvZ2s9EgIIACIA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "British Airways",
@@ -1872,11 +1920,6 @@
           "navn": "lastminute.com",
           "er_selskabet": false,
           "pris": 10633
-        },
-        {
-          "navn": "martiGO",
-          "er_selskabet": false,
-          "pris": 10719
         }
       ],
       "kabine_detalje": "Economy + Premium Economy",
@@ -1954,10 +1997,45 @@
         "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-05/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTA1Ih8KA0NQSBIKMjAyNi0xMS0wNRoDQVJOKgJTSzIDNDAyIh8KA0FSThIKMjAyNi0xMS0wNRoDSE5EKgJOSDIDMjIyagcIARIDQ1BIcgwIAhIIL20vMDdkZmtAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJVGtFNU0wNTRUMWN6VkRSQlRUY3lUM2RDUnkwdExTMHRMUzB0YjNsalpua3hOMEZCUVVGQlIzRmpWMWx2UzFobE1VZEJFZ3RUU3pRd01ueE9TREl5TWhvS0NKUldFQUFhQTBSTFN6Z2RjTks2Q2c9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTA1Ih8KA0NQSBIKMjAyNi0xMS0wNRoDQVJOKgJTSzIDNDAyIh8KA0FSThIKMjAyNi0xMS0wNRoDSE5EKgJOSDIDMjIyagcIARIDQ1BIcgwIAhIIL20vMDdkZmtAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJYmpOWE4wRkpkWEJ6WXpoQlJHZ3lNRkZDUnkwdExTMHRMUzB0TFhCcWNHOHhOVUZCUVVGQlIzRmtTbTVSUVZwVVRUWkJFZ3RUU3pRd01ueE9TREl5TWhvS0NKUldFQUFhQTBSTFN6Z2RjTks2Q2c9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [],
       "kabine_detalje": "Economy + Premium Economy",
       "bagage": "1 free carry-on, 2 free checked bags"
+    },
+    {
+      "price": 11031,
+      "currency": "DKK",
+      "airline": "SWISSANA",
+      "depart": "9:50 AM",
+      "arrive": "10:25 AM+1",
+      "duration_min": 995,
+      "stops": 1,
+      "route": "CPH-NRT",
+      "layover": "1 hr 25 min ZRH",
+      "co2_kg": 1026,
+      "raw": "9:50 AM | – | 10:25 AM+1 | SWISSANA | 16 hr 35 min | CPH–NRT | 1 stop | 1 hr 25 min ZRH | 1,026 kg CO2e | +9% emissions | DKK 11,031 | Economy + Premium Economy",
+      "ben": "ud",
+      "dato": "2026-11-05",
+      "fra": "CPH",
+      "til": "TYO",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "ok",
+      "fejl": [],
+      "stjerne_fejl": false,
+      "aarsag": "",
+      "stjerner": 4,
+      "selskaber": [
+        "ANA",
+        "SWISS"
+      ],
+      "booking": "https://www.ana.co.jp/en/dk/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDVqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261105/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-05/premium?sort=price_a&adults=1"
+      }
     },
     {
       "price": 11063,
@@ -2005,7 +2083,7 @@
       "route": "CPH-NRT",
       "layover": "2 hr 45 min DXB",
       "co2_kg": 1400,
-      "raw": "2:45 PM | – | 5:20 PM+1 | EmiratesQantas | 18 hr 35 min | CPH–NRT | 1 stop | 2 hr 45 min DXB | 1,400 kg CO2e | +48% emissions | DKK 11,434",
+      "raw": "2:45 PM | – | 5:20 PM+1 | EmiratesQantas | 18 hr 35 min | CPH–NRT | 1 stop | 2 hr 45 min DXB | 1,400 kg CO2e | +49% emissions | DKK 11,434",
       "ben": "ud",
       "dato": "2026-11-05",
       "fra": "CPH",
@@ -2057,43 +2135,6 @@
       "selskaber": [
         "JAL",
         "British Airways",
-        "Finnair"
-      ],
-      "booking": "https://www.jal.co.jp/dk/en/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMDVqBRIDQ1BIcgUSA1RZT0ABSAKYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/cph/tyoa/261105/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
-        "Momondo": "https://www.momondo.dk/flight-search/CPH-TYO/2026-11-05/premium?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/CPH-TYO/2026-11-05/premium?sort=price_a&adults=1"
-      }
-    },
-    {
-      "price": 13630,
-      "currency": "DKK",
-      "airline": "FinnairJAL",
-      "depart": "1:00 PM",
-      "arrive": "2:25 PM+1",
-      "duration_min": 1045,
-      "stops": 1,
-      "route": "CPH-HND",
-      "layover": "2 hr 25 min HEL",
-      "co2_kg": 907,
-      "raw": "1:00 PM | – | 2:25 PM+1 | FinnairJAL | 17 hr 25 min | CPH–HND | 1 stop | 2 hr 25 min HEL | 907 kg CO2e | Avg emissions | DKK 13,630 | Economy + Premium Economy",
-      "ben": "ud",
-      "dato": "2026-11-05",
-      "fra": "CPH",
-      "til": "TYO",
-      "kabine": "premium",
-      "kabine_navn": "Premium economy",
-      "status": "afvist",
-      "fejl": [
-        "1.630 DKK over prisloftet"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "1.630 DKK over prisloftet",
-      "stjerner": 4,
-      "selskaber": [
-        "JAL",
         "Finnair"
       ],
       "booking": "https://www.jal.co.jp/dk/en/",
@@ -2622,7 +2663,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-15/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-15/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE1Ih8KA05SVBIKMjAyNi0xMS0xNRoDRFhCKgJFSzIDMzE5Ih8KA0RYQhIKMjAyNi0xMS0xNhoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJUjJoM01IcFlWR28yZFUxQlVIcHJNMEZDUnkwdExTMHRMUzB0TFc5NVkycHZOMEZCUVVGQlIzRmpWMWxSUkZaNFNuZEJFZ3RGU3pNeE9YeEZTekUxTVJvS0NKeFBFQUFhQTBSTFN6Z2RjTzNPQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE1Ih8KA05SVBIKMjAyNi0xMS0xNRoDRFhCKgJFSzIDMzE5Ih8KA0RYQhIKMjAyNi0xMS0xNhoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMDdkZmtyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJU0haYU1FNXhiMHhyYjBsQlNWQjVRbEZDUnkwdExTMHRMUzB0TFMxd2FubDNORUZCUVVGQlIzRmtTbTB3UTFreGRsRkJFZ3RGU3pNeE9YeEZTekUxTVJvS0NKeFBFQUFhQTBSTFN6Z2RjTzNPQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Emirates",
@@ -2966,6 +3007,46 @@
       }
     },
     {
+      "price": 18234,
+      "currency": "DKK",
+      "airline": "Korean Air, LOT",
+      "depart": "2:15 AM",
+      "arrive": "7:00 PM",
+      "duration_min": 1485,
+      "stops": 2,
+      "route": "KIX-CPH",
+      "layover": "ICN, WAW",
+      "co2_kg": 1710,
+      "raw": "2:15 AM | – | 7:00 PM | Korean Air, LOT | 24 hr 45 min | KIX–CPH | 2 stops | ICN, WAW | 1,710 kg CO2e | -28% emissions | DKK 18,234",
+      "ben": "hjem",
+      "dato": "2026-11-15",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "business",
+      "kabine_navn": "Business",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "3.234 DKK over prisloftet",
+        "24t rejsetid (max 20t)",
+        "LOT har 3 stjerner"
+      ],
+      "stjerne_fejl": true,
+      "aarsag": "2 stop (max 1); 3.234 DKK over prisloftet; 24t rejsetid (max 20t); LOT har 3 stjerner",
+      "stjerner": 3,
+      "selskaber": [
+        "Korean Air",
+        "LOT"
+      ],
+      "booking": "https://www.koreanair.com/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/business?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-15/business?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 18589,
       "currency": "DKK",
       "airline": "Asiana Airlines, Scandinavian Airlines",
@@ -3044,6 +3125,44 @@
       }
     },
     {
+      "price": 19600,
+      "currency": "DKK",
+      "airline": "Qatar AirwaysJAL",
+      "depart": "5:55 PM",
+      "arrive": "1:30 PM+1",
+      "duration_min": 1655,
+      "stops": 1,
+      "route": "KIX-CPH",
+      "layover": "9 hr 30 min DOH",
+      "co2_kg": 3269,
+      "raw": "5:55 PM | – | 1:30 PM+1 | Qatar AirwaysJAL | 27 hr 35 min | KIX–CPH | 1 stop | 9 hr 30 min DOH | 3,269 kg CO2e | +37% emissions | DKK 19,600",
+      "ben": "hjem",
+      "dato": "2026-11-15",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "business",
+      "kabine_navn": "Business",
+      "status": "afvist",
+      "fejl": [
+        "4.600 DKK over prisloftet",
+        "27t rejsetid (max 20t)"
+      ],
+      "stjerne_fejl": false,
+      "aarsag": "4.600 DKK over prisloftet; 27t rejsetid (max 20t)",
+      "stjerner": 5,
+      "selskaber": [
+        "Qatar Airways",
+        "JAL"
+      ],
+      "booking": "https://www.qatarairways.com/da-dk/homepage.html",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/business?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-15/business?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 19679,
       "currency": "DKK",
       "airline": "Korean Air, Scandinavian Airlines",
@@ -3075,84 +3194,6 @@
         "Scandinavian Airlines"
       ],
       "booking": "https://www.koreanair.com/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-15/business?sort=price_a&adults=1"
-      }
-    },
-    {
-      "price": 20421,
-      "currency": "DKK",
-      "airline": "Korean Air, LOT",
-      "depart": "2:15 AM",
-      "arrive": "7:00 PM",
-      "duration_min": 1485,
-      "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "ICN, WAW",
-      "co2_kg": 1710,
-      "raw": "2:15 AM | – | 7:00 PM | Korean Air, LOT | 24 hr 45 min | KIX–CPH | 2 stops | ICN, WAW | 1,710 kg CO2e | -28% emissions | DKK 20,421",
-      "ben": "hjem",
-      "dato": "2026-11-15",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "5.421 DKK over prisloftet",
-        "24t rejsetid (max 20t)",
-        "LOT har 3 stjerner"
-      ],
-      "stjerne_fejl": true,
-      "aarsag": "2 stop (max 1); 5.421 DKK over prisloftet; 24t rejsetid (max 20t); LOT har 3 stjerner",
-      "stjerner": 3,
-      "selskaber": [
-        "Korean Air",
-        "LOT"
-      ],
-      "booking": "https://www.koreanair.com/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-15/business?sort=price_a&adults=1"
-      }
-    },
-    {
-      "price": 20973,
-      "currency": "DKK",
-      "airline": "Qatar AirwaysJAL",
-      "depart": "5:55 PM",
-      "arrive": "1:30 PM+1",
-      "duration_min": 1655,
-      "stops": 1,
-      "route": "KIX-CPH",
-      "layover": "9 hr 30 min DOH",
-      "co2_kg": 3269,
-      "raw": "5:55 PM | – | 1:30 PM+1 | Qatar AirwaysJAL | 27 hr 35 min | KIX–CPH | 1 stop | 9 hr 30 min DOH | 3,269 kg CO2e | +37% emissions | DKK 20,973",
-      "ben": "hjem",
-      "dato": "2026-11-15",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "5.973 DKK over prisloftet",
-        "27t rejsetid (max 20t)"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "5.973 DKK over prisloftet; 27t rejsetid (max 20t)",
-      "stjerner": 5,
-      "selskaber": [
-        "Qatar Airways",
-        "JAL"
-      ],
-      "booking": "https://www.qatarairways.com/da-dk/homepage.html",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
@@ -3384,6 +3425,45 @@
       }
     },
     {
+      "price": 11641,
+      "currency": "DKK",
+      "airline": "Korean Air, LOT",
+      "depart": "2:15 AM",
+      "arrive": "7:00 PM",
+      "duration_min": 1485,
+      "stops": 2,
+      "route": "KIX-CPH",
+      "layover": "ICN, WAW",
+      "co2_kg": 708,
+      "raw": "2:15 AM | – | 7:00 PM | Korean Air, LOT | 24 hr 45 min | KIX–CPH | 2 stops | ICN, WAW | 708 kg CO2e | -24% emissions | DKK 11,641 | Economy + Premium Economy",
+      "ben": "hjem",
+      "dato": "2026-11-15",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "24t rejsetid (max 20t)",
+        "LOT har 3 stjerner"
+      ],
+      "stjerne_fejl": true,
+      "aarsag": "2 stop (max 1); 24t rejsetid (max 20t); LOT har 3 stjerner",
+      "stjerner": 3,
+      "selskaber": [
+        "Korean Air",
+        "LOT"
+      ],
+      "booking": "https://www.koreanair.com/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-15/premium?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 11906,
       "currency": "DKK",
       "airline": "KLM",
@@ -3416,7 +3496,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-15/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE1Ih8KA0tJWBIKMjAyNi0xMS0xNRoDQU1TKgJLTDIDODY4IiAKA0FNUxIKMjAyNi0xMS0xNRoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJZG05Q09FbFpTM052WHpCQlN5MVZkVkZDUnkwdExTMHRMVzlyY1dreE1TMXVNVUZCUVVGQlIzRmpWMWhOU0Y5UmFGTkJFZ3hMVERnMk9IeExUREV5TnprYUNnaUNYUkFBR2dORVMwczRIWENjcFFzPRICCAAiAwoBMA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE1Ih8KA0tJWBIKMjAyNi0xMS0xNRoDQU1TKgJLTDIDODY4IiAKA0FNUxIKMjAyNi0xMS0xNRoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJY2xJd1QyTnJVSFpxT0c5QlNHOHpkVkZDUnkwdExTMHRMUzB0TFMxd1ptbHJOa0ZCUVVGQlIzRmtTbXhyUWpWelZrbEJFZ3hMVERnMk9IeExUREV5TnprYUNnaUNYUkFBR2dORVMwczRIWENjcFFzPRICCAAiAxIBMA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "KLM",
@@ -3580,54 +3660,17 @@
       }
     },
     {
-      "price": 14208,
+      "price": 15273,
       "currency": "DKK",
-      "airline": "KLM, Scandinavian Airlines",
-      "depart": "1:00 PM",
-      "arrive": "8:20 AM+1",
-      "duration_min": 1640,
-      "stops": 1,
-      "route": "KIX-CPH",
-      "layover": "11 hr 40 min AMS",
-      "co2_kg": 859,
-      "raw": "1:00 PM | – | 8:20 AM+1 | KLM, Scandinavian AirlinesOperated by Sas Connect | 27 hr 20 min | KIX–CPH | 1 stop | 11 hr 40 min AMS | 859 kg CO2e | -7% emissions | DKK 14,208 | Premium Economy + Economy",
-      "ben": "hjem",
-      "dato": "2026-11-15",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "premium",
-      "kabine_navn": "Premium economy",
-      "status": "afvist",
-      "fejl": [
-        "27t rejsetid (max 20t)"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "27t rejsetid (max 20t)",
-      "stjerner": 4,
-      "selskaber": [
-        "Scandinavian Airlines",
-        "KLM"
-      ],
-      "booking": "https://www.flysas.com/dk-da/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-15/premium?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-15/premium?sort=price_a&adults=1"
-      }
-    },
-    {
-      "price": 14643,
-      "currency": "DKK",
-      "airline": "KLM, Air France",
-      "depart": "1:00 PM",
-      "arrive": "9:10 AM+1",
-      "duration_min": 1690,
+      "airline": "JAL, Air France",
+      "depart": "7:35 PM",
+      "arrive": "2:40 PM+1",
+      "duration_min": 1625,
       "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "AMS, CDG",
-      "co2_kg": 944,
-      "raw": "1:00 PM | – | 9:10 AM+1 | KLM, Air France | 28 hr 10 min | KIX–CPH | 2 stops | AMS, CDG | 944 kg CO2e | Avg emissions | DKK 14,643 | Premium Economy + Economy",
+      "route": "ITM-CPH",
+      "layover": "HND, CDG",
+      "co2_kg": 1095,
+      "raw": "7:35 PM | – | 2:40 PM+1 | JAL, Air France | 27 hr 5 min | ITM–CPH | 2 stops | HND, CDG | 1,095 kg CO2e | +18% emissions | DKK 15,273 | Economy + Premium Economy",
       "ben": "hjem",
       "dato": "2026-11-15",
       "fra": "OSA",
@@ -3637,16 +3680,17 @@
       "status": "afvist",
       "fejl": [
         "2 stop (max 1)",
-        "28t rejsetid (max 20t)"
+        "273 DKK over prisloftet",
+        "27t rejsetid (max 20t)"
       ],
       "stjerne_fejl": false,
-      "aarsag": "2 stop (max 1); 28t rejsetid (max 20t)",
+      "aarsag": "2 stop (max 1); 273 DKK over prisloftet; 27t rejsetid (max 20t)",
       "stjerner": 4,
       "selskaber": [
-        "Air France",
-        "KLM"
+        "JAL",
+        "Air France"
       ],
-      "booking": "https://wwws.airfrance.dk/",
+      "booking": "https://www.jal.co.jp/dk/en/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTVqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261115/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
@@ -4209,7 +4253,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-16/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE2Ih4KA0hORBIKMjAyNi0xMS0xNhoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE2GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJVGtFNU0wNTRUMWN6VkRSQlRUZDJZVUZDUnkwdExTMHRMUzB0YjNsalpua3hOMEZCUVVGQlIzRmpWMWhOU21zelkzbEJFZ3BLVERRM2ZFRlpPVFU1R2dvSW9GMFFBQm9EUkV0TE9CMXc3cWdMEgIIACIA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE2Ih4KA0hORBIKMjAyNi0xMS0xNhoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE2GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJVGxveGVteEJaRmh5WVRoQlNVNWtjMmRDUnkwdExTMHRMUzB0TFMxd2FuUm1NVUZCUVVGQlIzRmtTbXh6UlZWVVUyVkJFZ3BLVERRM2ZFRlpPVFU1R2dvSW9GMFFBQm9EUkV0TE9CMXc3cWdMEgIIACIDEgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "British Airways",
@@ -4263,6 +4307,45 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-16/premium?sort=price_a&adults=1"
       }
+    },
+    {
+      "price": 12096,
+      "currency": "DKK",
+      "airline": "ANA, Scandinavian Airlines",
+      "depart": "10:10 AM",
+      "arrive": "8:45 PM",
+      "duration_min": 1115,
+      "stops": 1,
+      "route": "NRT-CPH",
+      "layover": "2 hr 45 min BRU",
+      "co2_kg": 991,
+      "raw": "10:10 AM | – | 8:45 PM | ANA, Scandinavian AirlinesOperated by Sas Link | 18 hr 35 min | NRT–CPH | 1 stop | 2 hr 45 min BRU | 991 kg CO2e | +9% emissions | DKK 12,096 | Premium Economy + Economy",
+      "ben": "hjem",
+      "dato": "2026-11-16",
+      "fra": "TYO",
+      "til": "CPH",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "ok",
+      "fejl": [],
+      "stjerne_fejl": false,
+      "aarsag": "",
+      "stjerner": 4,
+      "selskaber": [
+        "ANA",
+        "Scandinavian Airlines"
+      ],
+      "booking": "https://www.ana.co.jp/en/dk/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-16/premium?sort=price_a&adults=1"
+      },
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE2Ih8KA05SVBIKMjAyNi0xMS0xNhoDQlJVKgJOSDIDMjMxIiAKA0JSVRIKMjAyNi0xMS0xNhoDQ1BIKgJTSzIEMTU5NmoMCAISCC9tLzA3ZGZrcgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJWkROTFJtVkpUMWhVYkRSQlNHNU1NRkZDUnkwdExTMHRMUzB0TFhCcVltUmlOa0ZCUVVGQlIzRmtTbTR3VGxBNGVrbEJFZ3hPU0RJek1YeFRTekUxT1RZYUNnakFYaEFBR2dORVMwczRIWENrdkFzPRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "saelgere": [],
+      "kabine_detalje": "Premium Economy + Economy",
+      "bagage": "1 free carry-on, 2 free checked bags"
     },
     {
       "price": 12179,
@@ -4364,42 +4447,6 @@
         "Finnair"
       ],
       "booking": "https://www.jal.co.jp/dk/en/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
-        "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-16/premium?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-16/premium?sort=price_a&adults=1"
-      }
-    },
-    {
-      "price": 15277,
-      "currency": "DKK",
-      "airline": "Air France",
-      "depart": "1:20 PM",
-      "arrive": "11:00 PM",
-      "duration_min": 1060,
-      "stops": 1,
-      "route": "HND-CPH",
-      "layover": "1 hr 15 min CDG",
-      "co2_kg": 900,
-      "raw": "1:20 PM | – | 11:00 PM | Air France | 17 hr 40 min | HND–CPH | 1 stop | 1 hr 15 min CDG | 900 kg CO2e | Avg emissions | DKK 15,277 | Premium Economy + Economy",
-      "ben": "hjem",
-      "dato": "2026-11-16",
-      "fra": "TYO",
-      "til": "CPH",
-      "kabine": "premium",
-      "kabine_navn": "Premium economy",
-      "status": "afvist",
-      "fejl": [
-        "277 DKK over prisloftet"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "277 DKK over prisloftet",
-      "stjerner": 4,
-      "selskaber": [
-        "Air France"
-      ],
-      "booking": "https://wwws.airfrance.dk/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
@@ -4553,6 +4600,45 @@
       }
     },
     {
+      "price": 19661,
+      "currency": "DKK",
+      "airline": "Korean Air, Scandinavian Airlines",
+      "depart": "2:15 AM",
+      "arrive": "9:30 PM",
+      "duration_min": 1635,
+      "stops": 2,
+      "route": "KIX-CPH",
+      "layover": "ICN, LHR",
+      "co2_kg": 3025,
+      "raw": "2:15 AM | – | 9:30 PM | Korean Air, Scandinavian AirlinesOperated by Sas Connect | 27 hr 15 min | KIX–CPH | 2 stops | ICN, LHR | 3,025 kg CO2e | +27% emissions | DKK 19,661",
+      "ben": "hjem",
+      "dato": "2026-11-16",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "business",
+      "kabine_navn": "Business",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "4.661 DKK over prisloftet",
+        "27t rejsetid (max 20t)"
+      ],
+      "stjerne_fejl": false,
+      "aarsag": "2 stop (max 1); 4.661 DKK over prisloftet; 27t rejsetid (max 20t)",
+      "stjerner": 4,
+      "selskaber": [
+        "Korean Air",
+        "Scandinavian Airlines"
+      ],
+      "booking": "https://www.koreanair.com/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/business?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-16/business?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 19679,
       "currency": "DKK",
       "airline": "Korean Air, Scandinavian Airlines",
@@ -4582,45 +4668,6 @@
       "selskaber": [
         "Korean Air",
         "Scandinavian Airlines"
-      ],
-      "booking": "https://www.koreanair.com/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-16/business?sort=price_a&adults=1"
-      }
-    },
-    {
-      "price": 19695,
-      "currency": "DKK",
-      "airline": "Korean Air, KLM",
-      "depart": "6:10 PM",
-      "arrive": "10:40 PM+1",
-      "duration_min": 2190,
-      "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "ICN, AMS",
-      "co2_kg": 2872,
-      "raw": "6:10 PM | – | 10:40 PM+1 | Korean Air, KLM | 36 hr 30 min | KIX–CPH | 2 stops | ICN, AMS | 2,872 kg CO2e | +20% emissions | DKK 19,695",
-      "ben": "hjem",
-      "dato": "2026-11-16",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "4.695 DKK over prisloftet",
-        "36t rejsetid (max 20t)"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "2 stop (max 1); 4.695 DKK over prisloftet; 36t rejsetid (max 20t)",
-      "stjerner": 4,
-      "selskaber": [
-        "Korean Air",
-        "KLM"
       ],
       "booking": "https://www.koreanair.com/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
@@ -4671,44 +4718,6 @@
       }
     },
     {
-      "price": 20323,
-      "currency": "DKK",
-      "airline": "Qatar AirwaysJAL",
-      "depart": "5:55 PM",
-      "arrive": "1:30 PM+1",
-      "duration_min": 1655,
-      "stops": 1,
-      "route": "KIX-CPH",
-      "layover": "9 hr 30 min DOH",
-      "co2_kg": 3269,
-      "raw": "5:55 PM | – | 1:30 PM+1 | Qatar AirwaysJAL | 27 hr 35 min | KIX–CPH | 1 stop | 9 hr 30 min DOH | 3,269 kg CO2e | +37% emissions | DKK 20,323",
-      "ben": "hjem",
-      "dato": "2026-11-16",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "5.323 DKK over prisloftet",
-        "27t rejsetid (max 20t)"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "5.323 DKK over prisloftet; 27t rejsetid (max 20t)",
-      "stjerner": 5,
-      "selskaber": [
-        "Qatar Airways",
-        "JAL"
-      ],
-      "booking": "https://www.qatarairways.com/da-dk/homepage.html",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-16/business?sort=price_a&adults=1"
-      }
-    },
-    {
       "price": 21160,
       "currency": "DKK",
       "airline": "FinnairBritish Airways, JAL",
@@ -4736,6 +4745,45 @@
       "selskaber": [
         "JAL",
         "British Airways",
+        "Finnair"
+      ],
+      "booking": "https://www.jal.co.jp/dk/en/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/business?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-16/business?sort=price_a&adults=1"
+      }
+    },
+    {
+      "price": 21594,
+      "currency": "DKK",
+      "airline": "JAL, Finnair",
+      "depart": "9:10 PM",
+      "arrive": "4:30 PM+1",
+      "duration_min": 1640,
+      "stops": 2,
+      "route": "KIX-CPH",
+      "layover": "HND, HEL",
+      "co2_kg": 2188,
+      "raw": "9:10 PM | – | 4:30 PM+1 | JAL, FinnairOperated by Nordic Reg for Finnair | 27 hr 20 min | KIX–CPH | 2 stops | HND, HEL | 2,188 kg CO2e | -8% emissions | DKK 21,594",
+      "ben": "hjem",
+      "dato": "2026-11-16",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "business",
+      "kabine_navn": "Business",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "6.594 DKK over prisloftet",
+        "27t rejsetid (max 20t)"
+      ],
+      "stjerne_fejl": false,
+      "aarsag": "2 stop (max 1); 6.594 DKK over prisloftet; 27t rejsetid (max 20t)",
+      "stjerner": 4,
+      "selskaber": [
+        "JAL",
         "Finnair"
       ],
       "booking": "https://www.jal.co.jp/dk/en/",
@@ -4856,7 +4904,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-16/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE2Ih8KA0tJWBIKMjAyNi0xMS0xNhoDRFhCKgJFSzIDMzE3Ih8KA0RYQhIKMjAyNi0xMS0xNxoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMGRxeXdyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJVFVjMWJHRmtPWFU0TlVGQlRFeDZObEZDUnkwdExTMHRMUzB0YjNsaVozWXhOMEZCUVVGQlIzRmpWMWxCU25oaVpEQkJFZ3RGU3pNeE4zeEZTekUxTVJvS0NPMU9FQUFhQTBSTFN6Z2RjSlBKQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE2Ih8KA0tJWBIKMjAyNi0xMS0xNhoDRFhCKgJFSzIDMzE3Ih8KA0RYQhIKMjAyNi0xMS0xNxoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMGRxeXdyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJY2kxU04yTkdhRjlHVlRSQlNFaHpPRUZDUnkwdExTMHRMUzB0Y0daaWFHMHhORUZCUVVGQlIzRmtTbTFyUm1OZlVrTkJFZ3RGU3pNeE4zeEZTekUxTVJvS0NPMU9FQUFhQTBSTFN6Z2RjSlBKQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Emirates",
@@ -4867,45 +4915,6 @@
       "kabine_detalje": "",
       "bagage": "1 free carry-on, 2 free checked bags",
       "pris_verificeret": true
-    },
-    {
-      "price": 11641,
-      "currency": "DKK",
-      "airline": "Korean Air, LOT",
-      "depart": "2:15 AM",
-      "arrive": "10:15 PM",
-      "duration_min": 1680,
-      "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "ICN, WAW",
-      "co2_kg": 895,
-      "raw": "2:15 AM | – | 10:15 PM | Korean Air, LOT | 28 hr | KIX–CPH | 2 stops | ICN, WAW | 895 kg CO2e | Avg emissions | DKK 11,641 | Economy + Premium Economy",
-      "ben": "hjem",
-      "dato": "2026-11-16",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "premium",
-      "kabine_navn": "Premium economy",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "28t rejsetid (max 20t)",
-        "LOT har 3 stjerner"
-      ],
-      "stjerne_fejl": true,
-      "aarsag": "2 stop (max 1); 28t rejsetid (max 20t); LOT har 3 stjerner",
-      "stjerner": 3,
-      "selskaber": [
-        "Korean Air",
-        "LOT"
-      ],
-      "booking": "https://www.koreanair.com/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/premium?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-16/premium?sort=price_a&adults=1"
-      }
     },
     {
       "price": 11977,
@@ -5022,17 +5031,17 @@
       }
     },
     {
-      "price": 12266,
+      "price": 12345,
       "currency": "DKK",
-      "airline": "Asiana Airlines, Air France",
-      "depart": "9:10 AM",
-      "arrive": "11:00 PM",
-      "duration_min": 1310,
+      "airline": "ANA, Scandinavian AirlinesLufthansa",
+      "depart": "2:30 PM",
+      "arrive": "9:25 AM+1",
+      "duration_min": 1615,
       "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "ICN, CDG",
-      "co2_kg": 910,
-      "raw": "9:10 AM | – | 11:00 PM | Asiana Airlines, Air France | 21 hr 50 min | KIX–CPH | 2 stops | ICN, CDG | 910 kg CO2e | Avg emissions | DKK 12,266 | Economy + Premium Economy",
+      "route": "ITM-CPH",
+      "layover": "HND, ARN",
+      "co2_kg": 1056,
+      "raw": "2:30 PM | – | 9:25 AM+1 | ANA, Scandinavian AirlinesLufthansaOperated by ANA Wings | 26 hr 55 min | ITM–CPH | 2 stops | HND, ARN | 1,056 kg CO2e | +14% emissions | DKK 12,345 | Economy + Premium Economy",
       "ben": "hjem",
       "dato": "2026-11-16",
       "fra": "OSA",
@@ -5042,15 +5051,17 @@
       "status": "afvist",
       "fejl": [
         "2 stop (max 1)",
-        "21t rejsetid (max 20t)"
+        "26t rejsetid (max 20t)"
       ],
       "stjerne_fejl": false,
-      "aarsag": "2 stop (max 1); 21t rejsetid (max 20t)",
+      "aarsag": "2 stop (max 1); 26t rejsetid (max 20t)",
       "stjerner": 4,
       "selskaber": [
-        "Air France"
+        "ANA",
+        "Scandinavian Airlines",
+        "Lufthansa"
       ],
-      "booking": "https://wwws.airfrance.dk/",
+      "booking": "https://www.ana.co.jp/en/dk/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
@@ -5117,6 +5128,43 @@
       ],
       "stjerne_fejl": false,
       "aarsag": "28t rejsetid (max 20t)",
+      "stjerner": 4,
+      "selskaber": [
+        "Air France"
+      ],
+      "booking": "https://wwws.airfrance.dk/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTZqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261116/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-16/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-16/premium?sort=price_a&adults=1"
+      }
+    },
+    {
+      "price": 13006,
+      "currency": "DKK",
+      "airline": "Asiana Airlines, Air France",
+      "depart": "8:50 AM",
+      "arrive": "11:00 PM",
+      "duration_min": 1330,
+      "stops": 2,
+      "route": "KIX-CPH",
+      "layover": "ICN, CDG",
+      "co2_kg": 910,
+      "raw": "8:50 AM | – | 11:00 PM | Asiana Airlines, Air France | 22 hr 10 min | KIX–CPH | 2 stops | ICN, CDG | 910 kg CO2e | Avg emissions | DKK 13,006 | Economy + Premium Economy",
+      "ben": "hjem",
+      "dato": "2026-11-16",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "22t rejsetid (max 20t)"
+      ],
+      "stjerne_fejl": false,
+      "aarsag": "2 stop (max 1); 22t rejsetid (max 20t)",
       "stjerner": 4,
       "selskaber": [
         "Air France"
@@ -5382,43 +5430,6 @@
         "JAL"
       ],
       "booking": "https://www.qatarairways.com/da-dk/homepage.html",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDVFlPcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261117/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-17/business?sort=price_a&adults=1"
-      }
-    },
-    {
-      "price": 21125,
-      "currency": "DKK",
-      "airline": "JAL, Scandinavian Airlines",
-      "depart": "10:40 AM",
-      "arrive": "10:00 PM",
-      "duration_min": 1160,
-      "stops": 1,
-      "route": "NRT-CPH",
-      "layover": "3 hr 30 min FRA",
-      "co2_kg": 2573,
-      "raw": "10:40 AM | – | 10:00 PM | JAL, Scandinavian AirlinesOperated by Cityjet | 19 hr 20 min | NRT–CPH | 1 stop | 3 hr 30 min FRA | 2,573 kg CO2e | +14% emissions | DKK 21,125",
-      "ben": "hjem",
-      "dato": "2026-11-17",
-      "fra": "TYO",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "6.125 DKK over prisloftet"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "6.125 DKK over prisloftet",
-      "stjerner": 4,
-      "selskaber": [
-        "JAL",
-        "Scandinavian Airlines"
-      ],
-      "booking": "https://www.jal.co.jp/dk/en/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDVFlPcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261117/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
@@ -5724,7 +5735,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-17/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE3Ih4KA0hORBIKMjAyNi0xMS0xNxoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE3GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJT1hsRU5GRlZSSGRmU0RCQlRXTk9VSGRDUnkwdExTMHRMVzk1Wm5NeU1TMXVNa0ZCUVVGQlIzRmpWMWhOUWw4eVNWRkJFZ3BLVERRM2ZFRlpPVFU1R2dvSXFWc1FBQm9EUkV0TE9CMXc4SW9MEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE3Ih4KA0hORBIKMjAyNi0xMS0xNxoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE3GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJVGxveGVteEJaRmh5WVRoQlNVNWthR2RDUnkwdExTMHRMUzB0TFMxd2FuUm1NVUZCUVVGQlIzRmtTbXhuVEU5VFRuZEJFZ3BLVERRM2ZFRlpPVFU1R2dvSXFWc1FBQm9EUkV0TE9CMXc4SW9MEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Iberia",
@@ -5732,14 +5743,14 @@
           "pris": 11689
         },
         {
-          "navn": "British Airways",
-          "er_selskabet": true,
-          "pris": 16662
-        },
-        {
           "navn": "JAL",
           "er_selskabet": true,
           "pris": 17056
+        },
+        {
+          "navn": "British Airways",
+          "er_selskabet": true,
+          "pris": 16662
         },
         {
           "navn": "Flybillet",
@@ -5826,6 +5837,45 @@
       }
     },
     {
+      "price": 11973,
+      "currency": "DKK",
+      "airline": "JAL, LOT",
+      "depart": "7:30 PM",
+      "arrive": "7:00 PM+1",
+      "duration_min": 1890,
+      "stops": 2,
+      "route": "HND-CPH",
+      "layover": "Change of airport",
+      "co2_kg": 928,
+      "raw": "7:30 PM | – | 7:00 PM+1 | JAL, LOT | 31 hr 30 min | HND–CPH | 2 stops | Change of airport | 928 kg CO2e | Avg emissions | DKK 11,973 | Economy + Premium Economy",
+      "ben": "hjem",
+      "dato": "2026-11-17",
+      "fra": "TYO",
+      "til": "CPH",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "31t rejsetid (max 20t)",
+        "LOT har 3 stjerner"
+      ],
+      "stjerne_fejl": true,
+      "aarsag": "2 stop (max 1); 31t rejsetid (max 20t); LOT har 3 stjerner",
+      "stjerner": 3,
+      "selskaber": [
+        "JAL",
+        "LOT"
+      ],
+      "booking": "https://www.jal.co.jp/dk/en/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261117/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-17/premium?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 12163,
       "currency": "DKK",
       "airline": "ANA, Scandinavian Airlines",
@@ -5851,6 +5901,41 @@
       "selskaber": [
         "ANA",
         "Scandinavian Airlines"
+      ],
+      "booking": "https://www.ana.co.jp/en/dk/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261117/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-17/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-17/premium?sort=price_a&adults=1"
+      }
+    },
+    {
+      "price": 12550,
+      "currency": "DKK",
+      "airline": "LufthansaANA",
+      "depart": "12:35 PM",
+      "arrive": "11:45 PM",
+      "duration_min": 1150,
+      "stops": 1,
+      "route": "HND-CPH",
+      "layover": "3 hr 20 min FRA",
+      "co2_kg": 953,
+      "raw": "12:35 PM | – | 11:45 PM | LufthansaANA | 19 hr 10 min | HND–CPH | 1 stop | 3 hr 20 min FRA | 953 kg CO2e | Avg emissions | DKK 12,550 | Premium Economy + Economy",
+      "ben": "hjem",
+      "dato": "2026-11-17",
+      "fra": "TYO",
+      "til": "CPH",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "ok",
+      "fejl": [],
+      "stjerne_fejl": false,
+      "aarsag": "",
+      "stjerner": 4,
+      "selskaber": [
+        "ANA",
+        "Lufthansa"
       ],
       "booking": "https://www.ana.co.jp/en/dk/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
@@ -6077,55 +6162,17 @@
       }
     },
     {
-      "price": 18589,
-      "currency": "DKK",
-      "airline": "Asiana Airlines, Scandinavian Airlines",
-      "depart": "12:15 AM",
-      "arrive": "7:50 PM",
-      "duration_min": 1655,
-      "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "ICN, LHR",
-      "co2_kg": 2505,
-      "raw": "12:15 AM | – | 7:50 PM | Asiana Airlines, Scandinavian AirlinesOperated by Sas Connect | 27 hr 35 min | KIX–CPH | 2 stops | ICN, LHR | 2,505 kg CO2e | Avg emissions | DKK 18,589",
-      "ben": "hjem",
-      "dato": "2026-11-17",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "3.589 DKK over prisloftet",
-        "27t rejsetid (max 20t)"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "2 stop (max 1); 3.589 DKK over prisloftet; 27t rejsetid (max 20t)",
-      "stjerner": 4,
-      "selskaber": [
-        "Scandinavian Airlines"
-      ],
-      "booking": "https://www.flysas.com/dk-da/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261117/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-17/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-17/business?sort=price_a&adults=1"
-      }
-    },
-    {
       "price": 18606,
       "currency": "DKK",
       "airline": "Asiana Airlines, Scandinavian Airlines",
-      "depart": "9:10 AM",
+      "depart": "8:50 AM",
       "arrive": "10:15 PM",
-      "duration_min": 1265,
+      "duration_min": 1285,
       "stops": 2,
       "route": "KIX-CPH",
       "layover": "ICN, MXP",
       "co2_kg": 2516,
-      "raw": "9:10 AM | – | 10:15 PM | Asiana Airlines, Scandinavian Airlines | 21 hr 5 min | KIX–CPH | 2 stops | ICN, MXP | 2,516 kg CO2e | Avg emissions | DKK 18,606",
+      "raw": "8:50 AM | – | 10:15 PM | Asiana Airlines, Scandinavian Airlines | 21 hr 25 min | KIX–CPH | 2 stops | ICN, MXP | 2,516 kg CO2e | Avg emissions | DKK 18,606",
       "ben": "hjem",
       "dato": "2026-11-17",
       "fra": "OSA",
@@ -6462,6 +6509,42 @@
       }
     },
     {
+      "price": 37540,
+      "currency": "DKK",
+      "airline": "KLM",
+      "depart": "1:00 PM",
+      "arrive": "10:40 PM",
+      "duration_min": 1060,
+      "stops": 1,
+      "route": "KIX-CPH",
+      "layover": "2 hr AMS",
+      "co2_kg": 2199,
+      "raw": "1:00 PM | – | 10:40 PM | KLM | 17 hr 40 min | KIX–CPH | 1 stop | 2 hr AMS | 2,199 kg CO2e | -8% emissions | DKK 37,540",
+      "ben": "hjem",
+      "dato": "2026-11-17",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "business",
+      "kabine_navn": "Business",
+      "status": "afvist",
+      "fejl": [
+        "22.540 DKK over prisloftet"
+      ],
+      "stjerne_fejl": false,
+      "aarsag": "22.540 DKK over prisloftet",
+      "stjerner": 4,
+      "selskaber": [
+        "KLM"
+      ],
+      "booking": "https://www.klm.dk/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261117/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-17/business?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-17/business?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 10902,
       "currency": "DKK",
       "airline": "JAL, Emirates",
@@ -6539,45 +6622,6 @@
       }
     },
     {
-      "price": 11127,
-      "currency": "DKK",
-      "airline": "JAL, LOT",
-      "depart": "9:10 PM",
-      "arrive": "9:35 AM+2",
-      "duration_min": 2665,
-      "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "Change of airport",
-      "co2_kg": 940,
-      "raw": "9:10 PM | – | 9:35 AM+2 | JAL, LOT | 44 hr 25 min | KIX–CPH | 2 stops | Change of airport | 940 kg CO2e | Avg emissions | DKK 11,127 | Business Class + Premium Economy + Economy",
-      "ben": "hjem",
-      "dato": "2026-11-17",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "premium",
-      "kabine_navn": "Premium economy",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "44t rejsetid (max 20t)",
-        "LOT har 3 stjerner"
-      ],
-      "stjerne_fejl": true,
-      "aarsag": "2 stop (max 1); 44t rejsetid (max 20t); LOT har 3 stjerner",
-      "stjerner": 3,
-      "selskaber": [
-        "JAL",
-        "LOT"
-      ],
-      "booking": "https://www.jal.co.jp/dk/en/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMTdqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261117/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-17/premium?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-17/premium?sort=price_a&adults=1"
-      }
-    },
-    {
       "price": 11480,
       "currency": "DKK",
       "airline": "JAL, FinnairBritish Airways",
@@ -6620,14 +6664,14 @@
       "price": 11617,
       "currency": "DKK",
       "airline": "Asiana Airlines, Air France",
-      "depart": "9:10 AM",
+      "depart": "8:50 AM",
       "arrive": "11:00 PM",
-      "duration_min": 1310,
+      "duration_min": 1330,
       "stops": 2,
       "route": "KIX-CPH",
       "layover": "ICN, CDG",
       "co2_kg": 910,
-      "raw": "9:10 AM | – | 11:00 PM | Asiana Airlines, Air France | 21 hr 50 min | KIX–CPH | 2 stops | ICN, CDG | 910 kg CO2e | Avg emissions | DKK 11,617 | Economy + Premium Economy",
+      "raw": "8:50 AM | – | 11:00 PM | Asiana Airlines, Air France | 22 hr 10 min | KIX–CPH | 2 stops | ICN, CDG | 910 kg CO2e | Avg emissions | DKK 11,617 | Economy + Premium Economy",
       "ben": "hjem",
       "dato": "2026-11-17",
       "fra": "OSA",
@@ -6637,10 +6681,10 @@
       "status": "afvist",
       "fejl": [
         "2 stop (max 1)",
-        "21t rejsetid (max 20t)"
+        "22t rejsetid (max 20t)"
       ],
       "stjerne_fejl": false,
-      "aarsag": "2 stop (max 1); 21t rejsetid (max 20t)",
+      "aarsag": "2 stop (max 1); 22t rejsetid (max 20t)",
       "stjerner": 4,
       "selskaber": [
         "Air France"
@@ -7026,43 +7070,6 @@
       }
     },
     {
-      "price": 21125,
-      "currency": "DKK",
-      "airline": "JAL, Scandinavian Airlines",
-      "depart": "10:40 AM",
-      "arrive": "10:00 PM",
-      "duration_min": 1160,
-      "stops": 1,
-      "route": "NRT-CPH",
-      "layover": "3 hr 30 min FRA",
-      "co2_kg": 2573,
-      "raw": "10:40 AM | – | 10:00 PM | JAL, Scandinavian AirlinesOperated by Cityjet | 19 hr 20 min | NRT–CPH | 1 stop | 3 hr 30 min FRA | 2,573 kg CO2e | +14% emissions | DKK 21,125",
-      "ben": "hjem",
-      "dato": "2026-11-18",
-      "fra": "TYO",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "6.125 DKK over prisloftet"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "6.125 DKK over prisloftet",
-      "stjerner": 4,
-      "selskaber": [
-        "JAL",
-        "Scandinavian Airlines"
-      ],
-      "booking": "https://www.jal.co.jp/dk/en/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDVFlPcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-18/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-18/business?sort=price_a&adults=1"
-      }
-    },
-    {
       "price": 21220,
       "currency": "DKK",
       "airline": "ANA, Scandinavian Airlines",
@@ -7213,6 +7220,43 @@
       }
     },
     {
+      "price": 24460,
+      "currency": "DKK",
+      "airline": "Emirates",
+      "depart": "12:05 AM",
+      "arrive": "12:30 PM",
+      "duration_min": 1225,
+      "stops": 1,
+      "route": "HND-CPH",
+      "layover": "1 hr 35 min DXB",
+      "co2_kg": 3894,
+      "raw": "12:05 AM | – | 12:30 PM | Emirates | 20 hr 25 min | HND–CPH | 1 stop | 1 hr 35 min DXB | 3,894 kg CO2e | +73% emissions | DKK 24,460",
+      "ben": "hjem",
+      "dato": "2026-11-18",
+      "fra": "TYO",
+      "til": "CPH",
+      "kabine": "business",
+      "kabine_navn": "Business",
+      "status": "afvist",
+      "fejl": [
+        "9.460 DKK over prisloftet",
+        "20t rejsetid (max 20t)"
+      ],
+      "stjerne_fejl": false,
+      "aarsag": "9.460 DKK over prisloftet; 20t rejsetid (max 20t)",
+      "stjerner": 4,
+      "selskaber": [
+        "Emirates"
+      ],
+      "booking": "https://www.emirates.com/dk/danish/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDVFlPcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
+        "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-18/business?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-18/business?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 25550,
       "currency": "DKK",
       "airline": "Scandinavian Airlines",
@@ -7249,17 +7293,17 @@
       }
     },
     {
-      "price": 9446,
+      "price": 9566,
       "currency": "DKK",
       "airline": "LOT",
       "depart": "11:00 PM",
-      "arrive": "9:35 AM+1",
-      "duration_min": 1115,
+      "arrive": "10:15 PM+1",
+      "duration_min": 1875,
       "stops": 1,
       "route": "NRT-CPH",
-      "layover": "2 hr 15 min WAW",
+      "layover": "14 hr 55 min WAW",
       "co2_kg": 834,
-      "raw": "11:00 PM | – | 9:35 AM+1 | LOT | 18 hr 35 min | NRT–CPH | 1 stop | 2 hr 15 min WAW | 834 kg CO2e | -8% emissions | DKK 9,446 | Premium Economy + Economy",
+      "raw": "11:00 PM | – | 10:15 PM+1 | LOT | 31 hr 15 min | NRT–CPH | 1 stop | 14 hr 55 min WAW | 834 kg CO2e | -8% emissions | DKK 9,566 | Premium Economy + Economy",
       "ben": "hjem",
       "dato": "2026-11-18",
       "fra": "TYO",
@@ -7268,10 +7312,11 @@
       "kabine_navn": "Premium economy",
       "status": "afvist",
       "fejl": [
+        "31t rejsetid (max 20t)",
         "LOT har 3 stjerner"
       ],
       "stjerne_fejl": true,
-      "aarsag": "LOT har 3 stjerner",
+      "aarsag": "31t rejsetid (max 20t); LOT har 3 stjerner",
       "stjerner": 3,
       "selskaber": [
         "LOT"
@@ -7431,7 +7476,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-18/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-18/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE4Ih4KA0hORBIKMjAyNi0xMS0xOBoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE4GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJUkRnMVlWSTBTRE5LVVhOQlRIVXhWMEZDUnkwdExTMHRMUzB0TFc5NVkycHBOVUZCUVVGQlIzRmpWMWM0U2xsd1IyVkJFZ3BLVERRM2ZFRlpPVFU1R2dvSTRGZ1FBQm9EUkV0TE9CMXcrT0lLEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE4Ih4KA0hORBIKMjAyNi0xMS0xOBoDSEVMKgJKTDICNDciHwoDSEVMEgoyMDI2LTExLTE4GgNDUEgqAkFZMgM5NTlqDAgCEggvbS8wN2Rma3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJZFRKbFlVRXdTMHROVTFGQlNHNHdjbEZDUnkwdExTMHRMUzB0TFhCcVltMXRPVUZCUVVGQlIzRmtTbXN3U0hoblNtbEJFZ3BLVERRM2ZFRlpPVFU1R2dvSTRGZ1FBQm9EUkV0TE9CMXcrT0lLEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "British Airways",
@@ -7449,33 +7494,34 @@
       "pris_verificeret": true
     },
     {
-      "price": 12244,
+      "price": 12179,
       "currency": "DKK",
-      "airline": "ANA, Scandinavian Airlines",
-      "depart": "10:05 AM",
-      "arrive": "7:50 PM",
-      "duration_min": 1065,
+      "airline": "LOT",
+      "depart": "11:00 PM",
+      "arrive": "9:35 AM+1",
+      "duration_min": 1115,
       "stops": 1,
-      "route": "HND-CPH",
-      "layover": "1 hr 15 min LHR",
-      "co2_kg": 1286,
-      "raw": "10:05 AM | – | 7:50 PM | ANA, Scandinavian AirlinesOperated by Sas Connect | 17 hr 45 min | HND–CPH | 1 stop | 1 hr 15 min LHR | 1,286 kg CO2e | +42% emissions | DKK 12,244 | Premium Economy + Economy",
+      "route": "NRT-CPH",
+      "layover": "2 hr 15 min WAW",
+      "co2_kg": 834,
+      "raw": "11:00 PM | – | 9:35 AM+1 | LOT | 18 hr 35 min | NRT–CPH | 1 stop | 2 hr 15 min WAW | 834 kg CO2e | -8% emissions | DKK 12,179 | Premium Economy + Economy",
       "ben": "hjem",
       "dato": "2026-11-18",
       "fra": "TYO",
       "til": "CPH",
       "kabine": "premium",
       "kabine_navn": "Premium economy",
-      "status": "ok",
-      "fejl": [],
-      "stjerne_fejl": false,
-      "aarsag": "",
-      "stjerner": 4,
-      "selskaber": [
-        "ANA",
-        "Scandinavian Airlines"
+      "status": "afvist",
+      "fejl": [
+        "LOT har 3 stjerner"
       ],
-      "booking": "https://www.ana.co.jp/en/dk/",
+      "stjerne_fejl": true,
+      "aarsag": "LOT har 3 stjerner",
+      "stjerner": 3,
+      "selskaber": [
+        "LOT"
+      ],
+      "booking": "https://www.lot.com/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
@@ -7511,6 +7557,40 @@
         "Finnair"
       ],
       "booking": "https://www.jal.co.jp/dk/en/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/TYO-CPH/2026-11-18/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/TYO-CPH/2026-11-18/premium?sort=price_a&adults=1"
+      }
+    },
+    {
+      "price": 13407,
+      "currency": "DKK",
+      "airline": "KLM",
+      "depart": "1:35 PM",
+      "arrive": "10:40 PM",
+      "duration_min": 1025,
+      "stops": 1,
+      "route": "NRT-CPH",
+      "layover": "1 hr 40 min AMS",
+      "co2_kg": 955,
+      "raw": "1:35 PM | – | 10:40 PM | KLM | 17 hr 5 min | NRT–CPH | 1 stop | 1 hr 40 min AMS | 955 kg CO2e | Avg emissions | DKK 13,407 | Premium Economy + Economy",
+      "ben": "hjem",
+      "dato": "2026-11-18",
+      "fra": "TYO",
+      "til": "CPH",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "ok",
+      "fejl": [],
+      "stjerne_fejl": false,
+      "aarsag": "",
+      "stjerner": 4,
+      "selskaber": [
+        "KLM"
+      ],
+      "booking": "https://www.klm.dk/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDVFlPcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/tyoa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
@@ -7590,46 +7670,6 @@
       }
     },
     {
-      "price": 18234,
-      "currency": "DKK",
-      "airline": "Korean Air, LOT",
-      "depart": "2:15 AM",
-      "arrive": "7:00 PM",
-      "duration_min": 1485,
-      "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "ICN, WAW",
-      "co2_kg": 2145,
-      "raw": "2:15 AM | – | 7:00 PM | Korean Air, LOT | 24 hr 45 min | KIX–CPH | 2 stops | ICN, WAW | 2,145 kg CO2e | -10% emissions | DKK 18,234",
-      "ben": "hjem",
-      "dato": "2026-11-18",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "3.234 DKK over prisloftet",
-        "24t rejsetid (max 20t)",
-        "LOT har 3 stjerner"
-      ],
-      "stjerne_fejl": true,
-      "aarsag": "2 stop (max 1); 3.234 DKK over prisloftet; 24t rejsetid (max 20t); LOT har 3 stjerner",
-      "stjerner": 3,
-      "selskaber": [
-        "Korean Air",
-        "LOT"
-      ],
-      "booking": "https://www.koreanair.com/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/business?sort=price_a&adults=1"
-      }
-    },
-    {
       "price": 18589,
       "currency": "DKK",
       "airline": "Asiana Airlines, Scandinavian Airlines",
@@ -7698,45 +7738,6 @@
         "Korean Air",
         "Scandinavian Airlines",
         "Air France"
-      ],
-      "booking": "https://www.koreanair.com/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/business?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/business?sort=price_a&adults=1"
-      }
-    },
-    {
-      "price": 19695,
-      "currency": "DKK",
-      "airline": "Korean Air, KLM",
-      "depart": "6:10 PM",
-      "arrive": "10:40 PM+1",
-      "duration_min": 2190,
-      "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "ICN, AMS",
-      "co2_kg": 2872,
-      "raw": "6:10 PM | – | 10:40 PM+1 | Korean Air, KLM | 36 hr 30 min | KIX–CPH | 2 stops | ICN, AMS | 2,872 kg CO2e | +20% emissions | DKK 19,695",
-      "ben": "hjem",
-      "dato": "2026-11-18",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "business",
-      "kabine_navn": "Business",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "4.695 DKK over prisloftet",
-        "36t rejsetid (max 20t)"
-      ],
-      "stjerne_fejl": false,
-      "aarsag": "2 stop (max 1); 4.695 DKK over prisloftet; 36t rejsetid (max 20t)",
-      "stjerner": 4,
-      "selskaber": [
-        "Korean Air",
-        "KLM"
       ],
       "booking": "https://www.koreanair.com/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
@@ -7825,6 +7826,46 @@
       }
     },
     {
+      "price": 20421,
+      "currency": "DKK",
+      "airline": "Korean Air, LOT",
+      "depart": "2:15 AM",
+      "arrive": "7:00 PM",
+      "duration_min": 1485,
+      "stops": 2,
+      "route": "KIX-CPH",
+      "layover": "ICN, WAW",
+      "co2_kg": 2145,
+      "raw": "2:15 AM | – | 7:00 PM | Korean Air, LOT | 24 hr 45 min | KIX–CPH | 2 stops | ICN, WAW | 2,145 kg CO2e | -10% emissions | DKK 20,421",
+      "ben": "hjem",
+      "dato": "2026-11-18",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "business",
+      "kabine_navn": "Business",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "5.421 DKK over prisloftet",
+        "24t rejsetid (max 20t)",
+        "LOT har 3 stjerner"
+      ],
+      "stjerne_fejl": true,
+      "aarsag": "2 stop (max 1); 5.421 DKK over prisloftet; 24t rejsetid (max 20t); LOT har 3 stjerner",
+      "stjerner": 3,
+      "selskaber": [
+        "Korean Air",
+        "LOT"
+      ],
+      "booking": "https://www.koreanair.com/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/business?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/business?sort=price_a&adults=1"
+      }
+    },
+    {
       "price": 21594,
       "currency": "DKK",
       "airline": "JAL, Finnair",
@@ -7894,6 +7935,44 @@
         "Emirates"
       ],
       "booking": "https://www.jal.co.jp/dk/en/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/business?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/business?sort=price_a&adults=1"
+      }
+    },
+    {
+      "price": 22811,
+      "currency": "DKK",
+      "airline": "STARLUX Airlines, Etihad",
+      "depart": "2:00 PM",
+      "arrive": "6:25 AM+1",
+      "duration_min": 1465,
+      "stops": 2,
+      "route": "KIX-CPH",
+      "layover": "TPE, AUH",
+      "co2_kg": 3393,
+      "raw": "2:00 PM | – | 6:25 AM+1 | STARLUX Airlines, Etihad | 24 hr 25 min | KIX–CPH | 2 stops | TPE, AUH | 3,393 kg CO2e | +42% emissions | DKK 22,811",
+      "ben": "hjem",
+      "dato": "2026-11-18",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "business",
+      "kabine_navn": "Business",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "7.811 DKK over prisloftet",
+        "24t rejsetid (max 20t)"
+      ],
+      "stjerne_fejl": false,
+      "aarsag": "2 stop (max 1); 7.811 DKK over prisloftet; 24t rejsetid (max 20t)",
+      "stjerner": 5,
+      "selskaber": [
+        "Etihad"
+      ],
+      "booking": "https://www.etihad.com/",
       "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDT1NBcgUSA0NQSEABSAOYAQI&hl=en&gl=dk&curr=DKK",
       "links": {
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=business",
@@ -8047,7 +8126,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE4Ih8KA0tJWBIKMjAyNi0xMS0xOBoDRFhCKgJFSzIDMzE3Ih8KA0RYQhIKMjAyNi0xMS0xORoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMGRxeXdyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJUmtvNVVsOHRSMnQ1WjJ0QlVGQlVRVUZDUnkwdExTMHRMUzB0TFc5NVlYQXlPRUZCUVVGQlIzRmpWMWxKUTBjdGRUWkJFZ3RGU3pNeE4zeEZTekUxTVJvS0NPMU9FQUFhQTBSTFN6Z2RjSlBKQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhplEgoyMDI2LTExLTE4Ih8KA0tJWBIKMjAyNi0xMS0xOBoDRFhCKgJFSzIDMzE3Ih8KA0RYQhIKMjAyNi0xMS0xORoDQ1BIKgJFSzIDMTUxagwIAhIIL20vMGRxeXdyBwgBEgNDUEhAAUgCcAGCAQsI____________AZgBAg&tfu=CnRDalJJYzI0M1owd3dTRlowVnpCQlNHVmZabmRDUnkwdExTMHRMUzB0Y0dwaVptRXhPVUZCUVVGQlIzRmtTbTF6UkRsWlREaEJFZ3RGU3pNeE4zeEZTekUxTVJvS0NPMU9FQUFhQTBSTFN6Z2RjSlBKQ1E9PRICCAAiAA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "Emirates",
@@ -8092,7 +8171,7 @@
         "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/premium?sort=price_a&adults=1"
       },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE4Ih8KA0tJWBIKMjAyNi0xMS0xOBoDQU1TKgJLTDIDODYwIiAKA0FNUxIKMjAyNi0xMS0xOBoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJU2tsRFYyMU5UVmd0ZUZsQlRXRlZlRkZDUnkwdExTMHRMUzF2ZVdkak55MXVNVUZCUVVGQlIzRmpWMWR6VDBoZlEzRkJFZ3hMVERnMk1IeExUREV5TnprYUNnaURWQkFBR2dORVMwczRIWERBbVFvPRICCAAiAwoBMA&hl=en&gl=dk&curr=DKK",
+      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpmEgoyMDI2LTExLTE4Ih8KA0tJWBIKMjAyNi0xMS0xOBoDQU1TKgJLTDIDODYwIiAKA0FNUxIKMjAyNi0xMS0xOBoDQ1BIKgJLTDIEMTI3OWoMCAISCC9tLzBkcXl3cgcIARIDQ1BIQAFIAnABggELCP___________wGYAQI&tfu=CnRDalJJVUdveVZFcHZRM05HT0VGQlNuQmhhMEZDUnkwdExTMHRMUzB0Y0daaVpXSXhPVUZCUVVGQlIzRmtTbXRyVEVwVlYwRkJFZ3hMVERnMk1IeExUREV5TnprYUNnaURWQkFBR2dORVMwczRIWERBbVFvPRICCAAiAwoBMA&hl=en&gl=dk&curr=DKK",
       "saelgere": [
         {
           "navn": "KLM",
@@ -8261,45 +8340,6 @@
       }
     },
     {
-      "price": 11641,
-      "currency": "DKK",
-      "airline": "Korean Air, LOT",
-      "depart": "2:15 AM",
-      "arrive": "7:00 PM",
-      "duration_min": 1485,
-      "stops": 2,
-      "route": "KIX-CPH",
-      "layover": "ICN, WAW",
-      "co2_kg": 872,
-      "raw": "2:15 AM | – | 7:00 PM | Korean Air, LOT | 24 hr 45 min | KIX–CPH | 2 stops | ICN, WAW | 872 kg CO2e | -6% emissions | DKK 11,641 | Economy + Premium Economy",
-      "ben": "hjem",
-      "dato": "2026-11-18",
-      "fra": "OSA",
-      "til": "CPH",
-      "kabine": "premium",
-      "kabine_navn": "Premium economy",
-      "status": "afvist",
-      "fejl": [
-        "2 stop (max 1)",
-        "24t rejsetid (max 20t)",
-        "LOT har 3 stjerner"
-      ],
-      "stjerne_fejl": true,
-      "aarsag": "2 stop (max 1); 24t rejsetid (max 20t); LOT har 3 stjerner",
-      "stjerner": 3,
-      "selskaber": [
-        "Korean Air",
-        "LOT"
-      ],
-      "booking": "https://www.koreanair.com/",
-      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
-      "links": {
-        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
-        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/premium?sort=price_a",
-        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/premium?sort=price_a&adults=1"
-      }
-    },
-    {
       "price": 11642,
       "currency": "DKK",
       "airline": "ANA, LOT",
@@ -8339,7 +8379,7 @@
       }
     },
     {
-      "price": 12148,
+      "price": 12149,
       "currency": "DKK",
       "airline": "FinnairJAL",
       "depart": "11:25 PM",
@@ -8371,19 +8411,46 @@
         "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
         "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/premium?sort=price_a",
         "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/premium?sort=price_a&adults=1"
-      },
-      "koeb_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpkEgoyMDI2LTExLTE4Ih4KA0tJWBIKMjAyNi0xMS0xOBoDSEVMKgJBWTICNjgiHwoDSEVMEgoyMDI2LTExLTE5GgNDUEgqAkFZMgM5NTNqDAgCEggvbS8wZHF5d3IHCAESA0NQSEABSAJwAYIBCwj___________8BmAEC&tfu=CnBDalJJZG05Q09FbFpTM052WHpCQlN5MVdiMUZDUnkwdExTMHRMVzlyY1dreE1TMXVNVUZCUVVGQlIzRmpWMWhqUzNBdFNHdEJFZ3BCV1RZNGZFRlpPVFV6R2dvSTlWNFFBQm9EUkV0TE9CMXcyOElMEgIIACIDCgEw&hl=en&gl=dk&curr=DKK",
-      "saelgere": [
-        {
-          "navn": "Finnair",
-          "er_selskabet": true,
-          "pris": 12148
-        }
+      }
+    },
+    {
+      "price": 13823,
+      "currency": "DKK",
+      "airline": "Korean Air, LOT",
+      "depart": "2:15 AM",
+      "arrive": "7:00 PM",
+      "duration_min": 1485,
+      "stops": 2,
+      "route": "KIX-CPH",
+      "layover": "ICN, WAW",
+      "co2_kg": 872,
+      "raw": "2:15 AM | – | 7:00 PM | Korean Air, LOT | 24 hr 45 min | KIX–CPH | 2 stops | ICN, WAW | 872 kg CO2e | -6% emissions | DKK 13,823 | Economy + Premium Economy",
+      "ben": "hjem",
+      "dato": "2026-11-18",
+      "fra": "OSA",
+      "til": "CPH",
+      "kabine": "premium",
+      "kabine_navn": "Premium economy",
+      "status": "afvist",
+      "fejl": [
+        "2 stop (max 1)",
+        "24t rejsetid (max 20t)",
+        "LOT har 3 stjerner"
       ],
-      "kabine_detalje": "Premium Economy + Economy",
-      "bagage": "1 free carry-on, 2 free checked bags",
-      "pris_verificeret": true,
-      "pris_kort": 12149
+      "stjerne_fejl": true,
+      "aarsag": "2 stop (max 1); 24t rejsetid (max 20t); LOT har 3 stjerner",
+      "stjerner": 3,
+      "selskaber": [
+        "Korean Air",
+        "LOT"
+      ],
+      "booking": "https://www.koreanair.com/",
+      "google": "https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMTEtMThqBRIDT1NBcgUSA0NQSEABSAKYAQI&hl=en&gl=dk&curr=DKK",
+      "links": {
+        "Skyscanner": "https://www.skyscanner.dk/transport/fly/osaa/cph/261118/?adults=1&currency=DKK&preferdirects=false&cabinclass=premiumeconomy",
+        "Momondo": "https://www.momondo.dk/flight-search/OSA-CPH/2026-11-18/premium?sort=price_a",
+        "Kayak": "https://www.kayak.dk/flights/OSA-CPH/2026-11-18/premium?sort=price_a&adults=1"
+      }
     },
     {
       "price": 18581,
