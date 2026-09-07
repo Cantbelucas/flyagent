@@ -131,6 +131,7 @@ def main() -> None:
         headers={
             "Authorization": f"Bearer {n['RESEND_API_KEY']}",
             "Content-Type": "application/json",
+            "User-Agent": "flyagent/1.0",
         },
         method="POST",
     )
